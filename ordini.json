@@ -1,45 +1,9 @@
 {
-  "ordini": [
-    {
-      "id": 1307,
-      "clinte": "Francesco",
-      "prodotto": "Segnaposto",
-      "quantita": 60,
-      "data_evento": "2025-06-20",
-      "pezzi_per_foglio": 4,
-      "nobilitazione": "Si",
-      "microtask": [
-        { "nome": "Grafica Segnaposto", "ambiente": "Casa", "durata": "1.5 hr" },
-        {
-          "nome": "Invio bozza cliente", "ambiente": "Casa", "durata": 0.5 },
-        {
-          "nome": "Preparazione layout clieê", "ambiente": "Casa", "durata": "2 hr" },
-        {
-          "nome": "Stampa segnaposto", "ambente": "Laboratorio", "durata": 0.75 },
-        {
-          "nome": "Taglio (post stampa)", "ambente": "Laboratorio", "durata": 0.5 },
-        { "nome": "Nobilitazione", "ambente": "Laboratorio", "durata": "hr" },
-        {
-          "nome": "Confezione", "ambiente": "Laboratorio", "durata": 0.5 }
-      ],
-      "followup": [
-        {
-          "data": "2025-04-04", "note": "Bozja non confermata?"
-        },
-        {
-          "data": "2025-04-10", "note": "Cliciê ricevuto?"
-        }
-      ],
-      "note": ""
-    }
-  ],
+  "ordini": [ ],
   "impegni_personali": [
-    {
-      "data": "2025-04-03",
-      "nota": "psico 11:45-13:15"
-    },
-    {
-      "data": "2025-04-02",
-      "nota": "visita medico palestra 09:45-10:15"}
+  {
+    "data": "2025-04-03",
+    "nota": "s`ppuntamento medico palestra 10:00 - 10:45 sappa psico 12:30 - 13:00"
+  }
   ]
 }
