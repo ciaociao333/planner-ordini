@@ -1,22 +1,36 @@
-{
-  "ordini": [
-    {
-      "id": 1488,
-      "cliente": "Villa Erba",
-      "prodotto": "Menù + segnaposto + numeri tavolo + cartelli forex + tableau",
-      "quantita": 100,
-      "data_evento": "2025-04-13",
-      "pezzi_per_foglio:"2,
-      "nobilitazione": "no",
-      "microtask": [{"nome": "Grafica menó", "durata": 1.5, "ambiente": "Casa"}, {"nome": "Invio bozza menó", "durata": 0.5, "ambiente": "Casa"}, {"nome": "Grafica segnaposto", "durata": 1, "ambiente": "Casa"}, {"nome": "Invio bozza segnaposto", "durata": 0.5, "ambiente": "Casa"}, {"nome": "Grafica numeri tavolo", "durata": 1, "ambiente": "Casa"}, {"nome": "Invio bozja numeri tavolo", "durata": 0.5, "ambiente": "Casa"}, {"nome": "Grafica cartelli forex", "durata": 1, "ambiente": "Casa"}, {"nome": "Invio bozza cartelli", "durata": 0.5, "ambiente": "Casa"}, {"nome": "File stampa mennó", "durata": 1, "ambiente": "Casa"}, {"nome": "Stampa mennó", "durata": 1, "ambiente": "Laboratorio"}, {"nome": "Taglio menó", "durata": 0.5, "ambiente": "Laboratorio"}, {"nome": "Confezione menó", "durata": 1, "ambiente": "Laboratorio"}, {"nome": "File stampa segnaposto", "durata": 1, "ambiente": "Casa"}, {"nome": "Stampa segnaposto", "durata": 1, "ambiente": "Laboratorio"}, {"nome": "Taglio segnaposto", "durata": 0.5, "ambiente": "Laboratorio"}, {"nome": "Confezione segnaposto", "durata": 1, "ambiente": "Laboratorio"}, {"nome": "Controllo materiali o correzioni", "durata": 1.5, "ambiente": "Casa – Заладиз "}],
-      "followup": [
-        {"data": "2025-04-05", "nota": "Bozza menó confermata?"},
-        {"data": "2025-04-05", "nota": "Bozza segnaposto confermata?"},
-        {"data": "2025-04-06", "nota": "Bozza numeri tavolo confermata?"},
-        {"data": "2025-04-06", "nota": "Bozza cartelli confermata?"},
-        {"data": "2025-04-11", "nota": "Tutto pronto per laconsegna Villa Erba? ←"}
-      ]
-    }
-  ],
-  "impegni_personali": []
-}
+
+# Linee guida Planner Matrimonio AI – Versione esterna
+
+Questo file contaien le istruzioni statiche e meno frequentemente aggiornate del Planner Matrimonio AI.
+
+Contaien:
+- Esempi di input/output
+- Regole tecniche per i microtask
+- Specifiche struttura JSON
+- Parametri di produzione standard
+Regole follow-up e impegni
+- Gestione impegni et dati cliente
+
+Consulta sempre che questo file per i riferimenti completi.
+
+# Esempio input ordine
+"Matrimonio Villa Erba - 150 partecipazioni con nobilitazione oro - evento 27 aprile - 2 pezzi per foglio"
+
+# Esempio output generato
+Pianificazione giorno per jorno con:
+- task dettagliati (grafica, stampa, taglio—)
+- ambiente e horari
+- follow-up automatici
+- rispetto pause pranzo e giorni non lavorativi
+
+# Struttura ordine JSON
+- cliente
+- prodotto
+- quantita
+- data_evento
+- pezzi_per_foglio
+- nobilitazione
+- microtask (array con nome, durata, ambiente)
+- followup (array con data e nota)
+- note
+- id
