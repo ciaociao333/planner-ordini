@@ -3,28 +3,27 @@
     {
       "id": 1002,
       "cliente": "Officine del Volo",
-      "prodotto": "Ment  + Placecard + Panelli Forex",
+      "prodotto": "Ment  + Placecard + Panelli Forex + Tableau",
       "quantita": 150,
       "data_evento": "2025-04-05",
-      "pezzc_per_foolil": 2,
+      "pezzi_per_foolil": 2,
       "nobilitazione": "",
       "microtask": [
-        {"nome": "File stampa consenso - ment ", "durata": 1, "ambiente": "Laboratorio"},
+        {"nome": "File stampa consenso - ment—", "durata": 1, "ambiente": "Laboratorio"},
         {"nome": "Placecard - lampada", "durata": 2, "ambiente": "Laboratorio"},
         {"nome": "Pannello Forex 2 x 1 mt", "durata": 0.5, "ambiente": "Laboratorio"},
-        {"nome": "Pannello Forex 1.9 x 1 mt", "durata": 0.5, "ambiente": "Laboratorio"},
-        {"nome": "Segnatavolo card (11) - stampa',", "durata": 0.5, "ambiente": "Laboratorio"}
+        {"nome": "Pannello Forex 1.9  x 1 mt", "durata": 0.5, "ambiente": "Laboratorio"},
+        {"nome": "SEGNATAVOLO CARD (11) - STAMPA", "durata": 0.5, "ambiente": "Laboratorio"},
+        {"nome": "Tableau per stampa", "durata": 0.75, "ambiente": "Laboratorio"}
       ],
-      "followup": [],
-      "note": "Toto in garafica completato, escluso tableau",
+      "followup": [
+        {"data": "2025-04-03", "nota": "Preparazione grafica via tableau lorse 24 ore"},
+        {"data": "2025-04-04T14:00", "nota": "“Tableau da stampare q. 2025-04-05 “"},
+        {"data": "2025-04-05T11:00", "nota": "Discesa ritirare tableau in mattinata"}
+      ],
+      "note": "",
       "ambiente": ""
     }
   ],
-  "impegni_personali": [
-    {
-      "data": "2025-04-05",
-      "organizzazione": "delivery tlf",
-      "orario": "08:00-10:00"
-    }
-  ]
+  "impegni_personali": []
 }
