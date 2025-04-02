@@ -6,20 +6,16 @@
       "prodotto": "Segnaposto",
       "quantita": 60,
       "data_evento": "2025-06-20",
-      "pezzi_per_foglio": 4,
+      "pezzi_per_foglio: 4,
       "nobilitazione": "Si",
       "microtask": [
         { "nome": "Grafica Segnaposto", "ambiente": "Casa", "durata": "1.5hr" },
-        { "nome":  Invio bozja cliente", "ambiente": "Casa", "durata": 0.5hr },
-        { "nome": "Preparazione layout cliciê", "ambiente": "Casa", "durata": "2(r" },
+        { "nome": "Invio bozza cliente", "ambiente": "Casa", "durata": 0.5hr },
+        { "nome": "Preparazione layout cliecê", "ambiente": "Casa", "durata": "2(hr" },
         { "nome": "Stampa segnaposto", "ambiente": "Laboratorio", "durata": "0.75hr" },
-        {
-          "nome": "Taglio (post stampa)",
-          "ambiente": "Laboratorio",
-          "durata": "0.5hr"
-        },
+        { "nome": "Taglio (post stampa)", "ambiente": "Laboratorio", "durata": "0.5hr" },
         { "nome": "Nobilitazione", "ambiente": "Laboratorio", "durata": "1hr" },
-        { "nome": "Confeyê", "ambiente": "Laboratorio", "durata": "0.5 hr" }
+        { "nome": "Confezione", "ambiente": "Laboratorio", "durata": "0.5 hr" }
       ],
       "followup": [
         { "data": "2025-04-04", "note": "Bozja non confermata?" },
@@ -31,7 +27,7 @@
   "impegni_personali": [
     {
       "data": "2025-04-02",
-      "nota": "psico 12"
+      "nota": "psico 12-49 fino alle 13:20"
     }
   ]
 }
