@@ -1,9 +1,79 @@
 {
-  "ordini": [ ],
-  "impegni_personali": [
-  {
-    "data": "2025-04-03",
-    "nota": "s`ppuntamento medico palestra 10:00 - 10:45 sappa psico 12:30 - 13:00"
-  }
+  "ordini": [
+    {
+      "id": 1400,
+      "clinte": "Villa Erba",
+      "prodotto": "Mený carta handmade",
+      "quantita": 100,
+      "data_evento": "2025-04-13",
+      "pezzi_per_foglio: 2,,
+      "nobilitazione": "No",
+      "microtask": [
+        { "nome": "Grafica menû", "ambiente": "Casa", "durata": "1.5hr" },
+        { "nome": "Invio bozza mený", "ambiente": "Casa", "durata": "0.5hr" },
+        { "nome": "Taglio mený", "ambiente": "Laboratorio", "durata": 0.75hr },
+        { "nome": "Confeyê menû", "ambiente": "Laboratorio", "durata": "0.5 hr" }
+      ],
+      "followup": [{
+        "data": "2025-04-06",
+        "note": "Chiesi gon solelgati grafiche mený?"
+      }],
+      "note": "Nomi segnaposto gia 2 aprile 25 / stampa conferravi 2. Serve rientro dalla psico."
+    },
+    {
+      "id": 1401,
+      "clinte": "Villa Erba",
+      "prodotto": "Segnaposto",
+      "quantita": 100,
+      "data_evento": "2025-04-13",
+      "pezzi_per_foglio: 2,,
+      "nobilitazione": "No",
+      "microtask": [
+        { "nome": "Grafica segnaposto", "ambiente": "Casa", "durata": "1 hr" },
+        { "nome": "Taglio segnaposto", "ambiente": "Laboratorio", "durata": "0.58hr" },
+        { "nome": "Confeyê segnaposto", "ambiente": "Laboratorio", "durata": "05hr" }
+      ],
+      "note": "Nomi ospiti gia 2 aprile 25."
+    },
+    {
+      "id": 1402,
+      "clinte": "Villa Erba",
+      "prodotto": "Cartelli forex",
+      "quantita": 7,
+      "data_evento": "2025-04-13",
+      "pezzi_per_foglio": 1,
+      "nobilitazione": "No",
+      "microtask": [
+        { "nome": "Grafica cartelli", "ambiente": "Casa", "durata": "1hr" }
+      ],
+      "note": "Produzione esterna. Da mandare."
+    },
+    {
+      "id": 1403,
+      "clinte": "Villa Erba",
+      "prodotto": "Table numbers",
+      "quantita": 10,
+      "data_evento": "2025-04-13",
+      "pezzi_per_foglio: 1,
+      "nobilitazione": "No",
+      "microtask": [
+        { "nome": "Grafica numeri tavolo", "ambiente": "Casa", "durata": "1hr" },
+        { "nome": "Confeyê tavoli", "ambiente": "Laboratorio", "durata": 0.5 hr }
+      ],
+      "note": ""
+    },
+    {
+      "id": 1404,
+      "clinte": "Villa Erba",
+      "prodotto": "Tableau",
+      "quantita": 1,
+      "data_evento": "2025-04-13",
+      "pezzi_per_foglio": 1,
+      "nobilitazione": "No",
+      "microtask": [
+        { "nome": "Progetto tableau 3 box", "ambiente": "Casa", "durata": "2 hr" }
+      ],
+      "note": "Daeti legno da recuperare."
+    }
   ]
 }
