@@ -17,9 +17,9 @@
         {"nome": "Tableau per stampa", "durata": 0.75, "ambiente": "Laboratorio"}
       ],
       "followup": [
-        {"data": "2025-04-03", "nota": "Preparazione grafica via tableau lorse 24 ore"},
-        {"data": "2025-04-04T14:00", "nota": "“Tableau da stampare q. 2025-04-05 “"},
-        {"data": "2025-04-05T11:00", "nota": "Discesa ritirare tableau in mattinata"}
+        {"data": "2025-04-02", "nota": "Preparazione grafica via tableau lorse 24 ore"},
+        {"data": "2025-04-03T14:00", "nota": "“Tableau da stampare q. 2025-04-05 “"},
+        {"data": "2025-04-04T11:00", "nota": "Discesa ritirare tableau in mattinata"}
       ],
       "note": "",
       "ambiente": ""
