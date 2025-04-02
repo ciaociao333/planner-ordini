@@ -1,36 +1,34 @@
-
-# Linee guida Planner Matrimonio AI – Versione esterna
-
-Questo file contaien le istruzioni statiche e meno frequentemente aggiornate del Planner Matrimonio AI.
-
-Contaien:
-- Esempi di input/output
-- Regole tecniche per i microtask
-- Specifiche struttura JSON
-- Parametri di produzione standard
-Regole follow-up e impegni
-- Gestione impegni et dati cliente
-
-Consulta sempre che questo file per i riferimenti completi.
-
-# Esempio input ordine
-"Matrimonio Villa Erba - 150 partecipazioni con nobilitazione oro - evento 27 aprile - 2 pezzi per foglio"
-
-# Esempio output generato
-Pianificazione giorno per jorno con:
-- task dettagliati (grafica, stampa, taglio—)
-- ambiente e horari
-- follow-up automatici
-- rispetto pause pranzo e giorni non lavorativi
-
-# Struttura ordine JSON
-- cliente
-- prodotto
-- quantita
-- data_evento
-- pezzi_per_foglio
-- nobilitazione
-- microtask (array con nome, durata, ambiente)
-- followup (array con data e nota)
-- note
-- id
+{
+  "ordini": [
+    {
+      "id": 1001,
+      "cliente": "Villa Erba",
+      "prodotto": "Menuê + Segnaposto",
+      "quantita": 150,
+      "data_evento": "2025-04-13",
+      "pezzi_per_foglio": 2,
+      "nobilitazione": "oro a caldo",
+      "microtask": [],
+      "followup": [
+        {
+          "data": "2025-04-04",
+          "nota": "↬ Serve sollecitare nomi per i segnaposto di Villa Erba entro el 4 aprile per iniziare la produzione il 9 aprile."
+        }
+      ],
+      "note": "",
+      "ambiente": ""
+    }
+  ],
+  "impegni_personali": [
+    {
+      "data": "2025-04-03",
+      "organizzazione": "psicologo",
+      "orario": "12:00-01:20"
+    },
+    {
+      "data": "2025-04-03",
+      "organizzazione": "medico palestra",
+      "orario": "10:00-10:45"
+    }
+  ]
+}
