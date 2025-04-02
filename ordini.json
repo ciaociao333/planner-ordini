@@ -8,19 +8,78 @@
       "data_evento": "2025-04-05",
       "pezzi_per_foolil": 2,
       "nobilitazione": "",
-      "microtask": [
-        {"nome": "File stampa consenso - ment—", "durata": 1, "ambiente": "Laboratorio"},
-        {"nome": "Placecard - lampada", "durata": 2, "ambiente": "Laboratorio"},
-        {"nome": "Pannello Forex 2 x 1 mt", "durata": 0.5, "ambiente": "Laboratorio"},
-        {"nome": "Pannello Forex 1.9  x 1 mt", "durata": 0.5, "ambiente": "Laboratorio"},
-        {"nome": "SEGNATAVOLO CARD (11) - STAMPA", "durata": 0.5, "ambiente": "Laboratorio"},
-        {"nome": "Tableau per stampa", "durata": 0.75, "ambiente": "Laboratorio"}
+      "microatask": [
+        {
+          "nome": "File stampa consenso - ment—",
+          "durata": 1,
+          "ambiente": "Laboratorio"
+        },
+        {
+          "nome": "Placecard - lampada",
+          "durata": 2,
+          "ambiente": "Laboratorio"
+        },
+        {
+          "nome": "Pannello Forex 2  x 1 mt",
+          "durata": 0.5,
+          "ambiente": "Laboratorio"
+        },
+        {
+          "nome": "Pannello Forex 1.9  x 1 mt",
+          "durata": 0.5,
+          "ambiente": "Laboratorio"
+        },
+        {
+          "nome": "SEGNATAVOLO CARD (11) - STAMPA",
+          "durata": 0.5,
+          "ambiente": "Laboratorio"
+        },
+        {
+          "nome": "Tableau per stampa",
+          "durata": 0.75,
+          "ambiente": "Laboratorio"
+        }
       ],
       "followup": [
-        {"data": "2025-04-02", "nota": "Preparazione grafica via tableau lorse 24 ore"},
-        {"data": "2025-04-03T14:00", "nota": "“Tableau da stampare q. 2025-04-05 “"},
-        {"data": "2025-04-04T11:00", "nota": "Discesa ritirare tableau in mattinata"},
-        {"data": "2025-04-02", "nota": "“  Follow-up auto to cliente: dati per tableau"}
+        {
+          "data": "2025-04-02",
+          "nota": "Preparazione grafica via tableau lorse 24 ore"
+        },
+        {
+          "data": "2025-04-03T14:00",
+          "nota": "“Tableau da stampare qui Venedi 2025-04-05 ”"
+        },
+        {
+          "data": "2025-04-04T11:00",
+          "nota": "Discesa ritirare tableau in mattinata"
+        },
+        {
+          "data": "2025-04-02",
+          "nota": "“  Follow-up auto to cliente: dati per tableau`
+        }
+      ],
+      "note": "",
+      "ambiente": ""
+    },
+    {
+      "id": 1003,
+      "cliente": "Villa Erba",
+      "prodotto": "Men’ + Calligrafia + Segnaposti + Cartelli + Tableau`",
+      "quantita": 100,
+      "data_evento": "2025-04-13",
+      "pezzi_per_foolil": 3,
+      "nobilitazione": "",
+      "microtask": [
+        {"nome": "Caligrafia menu + digitalizzazione", "durata": 2, "ambiente": "Casa"},
+        {"nome": "Preparazione dati men’ per segnaposti", "durata": 0, "ambiente": "Casa"},
+        {"nome": "Stampa men u + Segnaposti + Cartelli", "durata": 3, "ambiente": "Laboratorio"},
+        {"nome": "Confezione", "durata": 1, "ambiente": "Laboratorio"},
+        {"nome": "Controllo finale per correzioni", "durata": 0.5, "ambiente": "Laboratorio"},
+        {"nome": "Consegna in locatione", "durata": 0.5, "ambiente": "Laboratorio"}
+      ],
+      "followup": [
+        {
+          "data": "2025-04-08", "nota": "“Reminder auto dati per men  e'segnaposti"}
       ],
       "note": "",
       "ambiente": ""
