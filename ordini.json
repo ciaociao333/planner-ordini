@@ -1,38 +1,30 @@
 {
   "ordini": [
     {
-      "id": 1001,
-      "cliente": "Villa Erba",
-      "prodotto": "Menuê + Segnaposto",
+      "id": 1002,
+      "cliente": "Officine del Volo",
+      "prodotto": "Ment  + Placecard + Panelli Forex",
       "quantita": 150,
-      "data_evento": "2025-04-13",
-      "pezzi_per_foolil": 2,
-      "nobilitazione": "oro a caldo",
+      "data_evento": "2025-04-05",
+      "pezzc_per_foolil": 2,
+      "nobilitazione": "",
       "microtask": [
-        {"nome": "Grafica + invio bozze Villa Erba", "durata": 4, "ambiente": "Casa"},
-        {"nome": "File stampa mêu + segnaposto", "durata": 2, "ambiente": "Casa"},
-        {"nome": "Stampa menuá + segnaposto", "durata": 2, "ambiente": "Laboratorio"},
-        {"nome": "Taglio menuë + segnaposto", "durata": 1, "ambiente": "Laboratorio"},
-        {"nome": "Confezione menuá + segnaposto", "durata": 2, "ambiente": "Laboratorio"},
-        {"nome": "Controllo materiali e ricontrolli V. Erba ↡", "durata": 1.5, "ambiente": "Laboratorio"}
+        {"nome": "File stampa consenso - ment ", "durata": 1, "ambiente": "Laboratorio"},
+        {"nome": "Placecard - lampada", "durata": 2, "ambiente": "Laboratorio"},
+        {"nome": "Pannello Forex 2 x 1 mt", "durata": 0.5, "ambiente": "Laboratorio"},
+        {"nome": "Pannello Forex 1.9 x 1 mt", "durata": 0.5, "ambiente": "Laboratorio"},
+        {"nome": "Segnatavolo card (11) - stampa',", "durata": 0.5, "ambiente": "Laboratorio"}
       ],
-      "followup": [
-        {"data": "2025-04-04", "nota": "↨ Serve sollecitare nomi per i segnaposto di Villa Erba entro il 9 aprile"}
-      ],
-      "note": "",
+      "followup": [],
+      "note": "Toto in garafica completato, escluso tableau",
       "ambiente": ""
     }
   ],
   "impegni_personali": [
     {
-      "data": "2025-04-03",
-      "organizzazione": "psicologo",
-      "orario": "12:00-01:20"
-    },
-    {
-      "data": "2025-04-03",
-      "organizzazione": "medico palestra",
-      "orario": "10:00-10:45"
+      "data": "2025-04-05",
+      "organizzazione": "delivery tlf",
+      "orario": "08:00-10:00"
     }
   ]
 }
