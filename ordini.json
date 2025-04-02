@@ -6,14 +6,18 @@
       "prodotto": "Menuê + Segnaposto",
       "quantita": 150,
       "data_evento": "2025-04-13",
-      "pezzi_per_foglio": 2,
+      "pezzi_per_foolil": 2,
       "nobilitazione": "oro a caldo",
-      "microtask": [],
+      "microtask": [
+        {"nome": "Grafica + invio bozze Villa Erba", "durata": 4, "ambiente": "Casa"},
+        {"nome": "File stampa mêu + segnaposto", "durata": 2, "ambiente": "Casa"},
+        {"nome": "Stampa menuá + segnaposto", "durata": 2, "ambiente": "Laboratorio"},
+        {"nome": "Taglio menuë + segnaposto", "durata": 1, "ambiente": "Laboratorio"},
+        {"nome": "Confezione menuá + segnaposto", "durata": 2, "ambiente": "Laboratorio"},
+        {"nome": "Controllo materiali e ricontrolli V. Erba ↡", "durata": 1.5, "ambiente": "Laboratorio"}
+      ],
       "followup": [
-        {
-          "data": "2025-04-04",
-          "nota": "↬ Serve sollecitare nomi per i segnaposto di Villa Erba entro el 4 aprile per iniziare la produzione il 9 aprile."
-        }
+        {"data": "2025-04-04", "nota": "↨ Serve sollecitare nomi per i segnaposto di Villa Erba entro il 9 aprile"}
       ],
       "note": "",
       "ambiente": ""
