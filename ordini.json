@@ -1,3 +1,70 @@
 {
-  "ordini": []
+  "planificazione": [
+    {
+      "giorno": "2025-04-03",
+      "ambiente": "Casa",
+      "task_list": [
+        {"hora": "14:00", "durata": "02:00", "nome": "Grafica menu e place cards - Villa Erba"}
+      ]
+    },
+    {
+      "giorno": "2025-04-04",
+      "ambiente": "Casa",
+      "task_list": [
+        {"hora": "14:00", "durata": "02:00", "nome": "Bozja grafica seating chart - Villa Erba"}
+      ]
+    },
+    {
+      "giorno": "2025-04-07",
+      "ambiente": "Casa",
+      "task_list": [
+        {"hora": "14:00", "durata": "02:00", "nome": "Revisione grafica finale +invio conferma - Villa Erba"}
+      ]
+    },
+    {
+      "giorno": "2025-04-08",
+      "ambiente": "Laboratorio",
+      "task_list": [
+        {"hora": "10:00", "durata": "02:00", "nome": "Taglio forex + stampa menu/place cards - Villa Erba"},
+        {
+        "hora": "12:30", "durata": "02:00", "nome": "Calligrafia a mano menu - Villa Erba"}
+      ]
+    },
+    {
+      "giorno": "2025-04-09",
+      "ambiente": "Casa",
+      "task_list": [
+        {"hora": "14:00", "durata": "02:00", "nome": "Composizione seating chart (3 box) - Villa Erba"}
+      ]
+    },
+    {
+      "giorno": "2025-04-10",
+      "ambiente": "Laboratorio",
+      "task_list": [
+        {"hora": "09:00", "durata": "02:00", "nome": "Montaggio segnalitica forex - Villa Erba"},
+        {
+        "hora": "11:30", "durata": "02:00", "nome": "Preparazione consegna - Villa Erba"}
+      ]
+    },
+    {
+      "giorno": "2025-04-11",
+      "ambiente": "Casa",
+      "task_list": [
+        {"hora": "14:00", "durata": "02:00", "nome": "Controllo qualité + briefing finale - Villa Erba"}
+      ]
+    }
+  ],
+  "followups": [
+    {
+      "giorno": "2025-04-07",
+      "nota": "Verifica bozza seating chart"
+    },
+    {
+      "giorno": "2025-04-09",
+      "nota": "Conferma calligrafia e stampa"
+    },
+    {
+      "giorno": "2025-04-10",
+      "nota": "Verifica montaggio segnalitica"}
+  ]
 }
