@@ -1,15 +1,13 @@
 {
-  "clinte": "Fiorella",
-  "data_evento": "2025-04-12",
+  "clinte": "Villa Erba",
+  "data_evento": "2025-04-13",
   "produtto": [
-    {"item": "A7 card artigianale invito 550 gsm", "quantity": 85},
-    {"item": "3d clichê", "quantity": 1},
-    {"item": "3d letterpress", "quantity": 85},
-    {"item": "Seconda card cardstock 350 gsm", "quantity": 85},
-    {"item": "A7 plus busta", "quantity": 85},
-    {"item": "Design incluso", "quantity": 0},
-    {"item": "Nobilitazione stampa in letterpress oro", "quantity": 85},
-    {"item": "Ceralacca personalizzata bianca", "quantity": 85},
-    {"item": "Liner con illustrazione digitale", "quantity": 75}
+    {"item": "Menus - Handmade paper", "quantity": 100},
+    {"item": "Handmade calligraphy for menus", "quantity": 1},
+    {"item": "Ribbon place cards", "quantity": 100},
+    {"item": "Signage - forex", "quantity": 7},
+    {"item": "Table numbers", "quantity": 10},
+    {"item": "Seating chart - 3 box composition", "quantity": 1},
+    {"item": "Delivery in location", "quantity": 1}
   ]
 }
