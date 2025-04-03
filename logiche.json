@@ -235,3 +235,27 @@
 "attesa_cliche": {
   "consente_task_durante_attesa": ["taglio", "grafica_altri_ordini", "controllo_qualita", "stampa_digitale"]
 }
+"gestione_bozza": {
+  "giorni_attesa_standard": 1,
+  "followup_conferma_cliente": {
+    "abilitato": true,
+    "giorni_anticipo": 1,
+    "task_verifica_risposta": {
+      "nome": "Verifica risposta cliente",
+      "ambiente": "Casa",
+      "durata": "30min"
+    }
+  },
+  "gestione_revisioni": {
+    "abilitato": true,
+    "numero_massimo_revisioni": 2,
+    "tempo_extra_per_revisione": {
+      "durata": "1 giorno lavorativo",
+      "task_revisione": {
+        "nome": "Revisione bozza",
+        "ambiente": "Casa",
+        "durata": "1h"
+      }
+    }
+  }
+}
