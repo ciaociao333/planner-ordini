@@ -1,50 +1,34 @@
 {
-  "task_per_articolo": {
-    "partecipazioni_nobilitate": [
-      {"nome": "grafica", "ambiente": "Casa"},
-      {"nome": "bozza cliente", "ambiente": "Casa"},
-      {"nome": "verifica risposta cliente", "ambiente": "Casa"},
-      {"nome": "layout stampa", "ambiente": "Casa"},
-      {"nome": "attesa cliché", "ambiente": "Casa"},
-      {"nome": "stampa digitale", "ambiente": "Laboratorio"},
-      {"nome": "taglio", "ambiente": "Laboratorio"},
-      {"nome": "nobilitazione", "ambiente": "Laboratorio"},
-      {"nome": "controllo qualità", "ambiente": "Laboratorio"},
-      {"nome": "assemblaggio e incollaggio buste", "ambiente": "Laboratorio"},
-      {"nome": "impacchettamento", "ambiente": "Laboratorio"},
-      {"nome": "spedizione", "ambiente": "Laboratorio"}
-    ],
-    "menu": [
-      {"nome": "grafica", "ambiente": "Casa"},
-      {"nome": "bozza cliente", "ambiente": "Casa"},
-      {"nome": "verifica risposta cliente", "ambiente": "Casa"},
-      {"nome": "stampa digitale", "ambiente": "Laboratorio"},
-      {"nome": "taglio", "ambiente": "Laboratorio"},
-      {"nome": "confezione", "ambiente": "Laboratorio"}
-    ]
-  },
-  "dipendenze_task": {
-    "bozza cliente": ["grafica"],
-    "verifica risposta cliente": ["bozza cliente"],
-    "layout stampa": ["verifica risposta cliente"],
-    "attesa cliché": ["layout stampa"],
-    "stampa digitale": ["layout stampa"],
-    "taglio": ["stampa digitale"],
-    "nobilitazione": ["taglio", "attesa cliché"],
-    "controllo qualità": ["nobilitazione"],
-    "assemblaggio e incollaggio buste": ["controllo qualità"],
-    "impacchettamento": ["assemblaggio e incollaggio buste"],
-    "spedizione": ["impacchettamento"]
-  },
-  "attese": {
-    "attesa cliché": {
-      "durata_giorni_lavorativi": 3,
-      "task_consentiti_durante": ["stampa digitale", "taglio", "grafica altri ordini", "controllo qualità altri"]
+  "nome_cliente": "Villa Erba",
+  "data": "2025-04-13",
+  "prodotti": [
+    {
+      "nome": "Menu su paper fatto a mano",
+      "quantita": 100
+    },
+    {
+      "nome": "Calligrafia a mano",
+      "quantita": 1
+    },
+    {
+      "nome": "Place cards con nastrino",
+      "quantita": 100
+    },
+    {
+      "nome": "Signage forex",
+      "quantita": 7
+    },
+    {
+      "nome": "Table numbers",
+      "quantita": 10
+    },
+    {
+      "nome": "Seating chart - 3 scattole",
+      "quantita": 1
+    },
+    {
+      "nome": "Delivery in location",
+      "quantita": 1
     }
-  },
-  "vincoli_temporali": {
-    "inizio_pianificazione": "oggi+1",
-    "escludi_giorni": ["oggi", "sabato", "domenica"],
-    "rimuovi_ordini_vecchi_giorni": 14
-  }
+  ]
 }
