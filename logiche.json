@@ -13,10 +13,12 @@
       "tempo_bozza_giorni": 7
     }
   },
+
   "grafica": {
     "ambiente": "Casa",
     "accorpamento_grafiche_stesso_giorno": true
   },
+
   "produzione": {
     "richiede_cliche": [
       "letterpress",
@@ -35,226 +37,73 @@
       {"fase": "Consegna", "giorni_anticipo_minimo": 2}
     ]
   },
+
   "ottimizzazione": {
     "accorpa_tagli_simili": true,
     "max_ore_lavorative_giorno": 6,
-    "pausa_pranzo": {
-      "inizio": "12:30",
-      "fine": "14:00"
-    },
+    "pausa_pranzo": {"inizio": "12:30", "fine": "14:00"},
     "giorni_non_lavorativi": ["sabato", "domenica"],
     "buffer_spostamenti_minuti": 30,
     "buffer_impegni_personali_minuti": 30
   },
+
   "ambienti": {
     "Casa": ["grafica", "bozza", "email", "layout", "assemblaggio", "raccolta testi"],
     "Laboratorio": ["stampa", "taglio", "nobilitazione", "confezione", "controllo", "spedizione", "scrittura manuale", "stampa forex"]
   },
+
   "regole_generali": {
     "grafica_e_bozza_sempre_richieste": true,
     "task_nel_giorno_corrente": false,
     "pianificazione_da_giorno_successivo": true,
     "task_dopo_data_evento": false
   },
+
   "reminder_automatici": {
-    "testi_dati_mancanti_cliente": {
-      "abilitato": true,
-      "giorni_anticipo_task": 5
-    },
-    "verifica_cliche": {
-      "abilitato": true,
-      "giorni_dopo_ordine": 3
-    }
+    "testi_dati_mancanti_cliente": {"abilitato": true, "giorni_anticipo_task": 5},
+    "verifica_cliche": {"abilitato": true, "giorni_dopo_ordine": 3}
   },
+
   "task_materiali": {
-    "partecipazioni_standard": [
-      {"nome": "grafica", "ambiente": "Casa"},
-      {"nome": "bozza cliente", "ambiente": "Casa"},
-      {"nome": "layout stampa", "ambiente": "Casa"},
-      {"nome": "stampa", "ambiente": "Laboratorio"},
-      {"nome": "taglio", "ambiente": "Laboratorio"},
-      {"nome": "controllo qualità", "ambiente": "Laboratorio"},
-      {"nome": "confezione", "ambiente": "Laboratorio"}
-    ],
-    "partecipazioni_nobilitate": [
-      {"nome": "grafica", "ambiente": "Casa"},
-      {"nome": "bozza cliente", "ambiente": "Casa"},
-      {"nome": "layout stampa", "ambiente": "Casa"},
-      {"nome": "ordine cliché", "ambiente": "Casa"},
-      {"nome": "attesa cliché", "ambiente": "Casa"},
-      {"nome": "stampa", "ambiente": "Laboratorio"},
-      {"nome": "taglio", "ambiente": "Laboratorio"},
-      {"nome": "nobilitazione", "ambiente": "Laboratorio"},
-      {"nome": "controllo qualità", "ambiente": "Laboratorio"},
-      {"nome": "confezione", "ambiente": "Laboratorio"}
-    ],
-    "partecipazioni_nobilitate_con_nastri": [
-      {"nome": "grafica", "ambiente": "Casa"},
-      {"nome": "bozza cliente", "ambiente": "Casa"},
-      {"nome": "layout stampa", "ambiente": "Casa"},
-      {"nome": "ordine cliché", "ambiente": "Casa"},
-      {"nome": "attesa cliché", "ambiente": "Casa"},
-      {"nome": "stampa", "ambiente": "Laboratorio"},
-      {"nome": "taglio", "ambiente": "Laboratorio"},
-      {"nome": "nobilitazione", "ambiente": "Laboratorio"},
-      {"nome": "assemblaggio inviti", "ambiente": "Casa"},
-      {"nome": "applicazione nastri/ceralacca", "ambiente": "Casa"},
-      {"nome": "controllo qualità", "ambiente": "Laboratorio"},
-      {"nome": "confezione", "ambiente": "Laboratorio"}
-    ],
-    "segnaposto": [
-      {"nome": "grafica", "ambiente": "Casa"},
-      {"nome": "stampa", "ambiente": "Laboratorio"},
-      {"nome": "taglio", "ambiente": "Laboratorio"},
-      {"nome": "confezione", "ambiente": "Laboratorio"}
-    ],
-    "segnaposto_calligrafia": [
-      {"nome": "grafica", "ambiente": "Casa"},
-      {"nome": "scrittura manuale", "ambiente": "Laboratorio"},
-      {"nome": "controllo qualità", "ambiente": "Laboratorio"},
-      {"nome": "confezione", "ambiente": "Laboratorio"}
-    ],
-    "menu": [
-      {"nome": "grafica", "ambiente": "Casa"},
-      {"nome": "bozza cliente", "ambiente": "Casa"},
-      {"nome": "stampa", "ambiente": "Laboratorio"},
-      {"nome": "taglio", "ambiente": "Laboratorio"},
-      {"nome": "confezione", "ambiente": "Laboratorio"}
-    ],
-    "libretti_messa": [
-      {"nome": "raccolta testi", "ambiente": "Casa"},
-      {"nome": "grafica", "ambiente": "Casa"},
-      {"nome": "bozza cliente", "ambiente": "Casa"},
-      {"nome": "layout stampa", "ambiente": "Casa"},
-      {"nome": "stampa", "ambiente": "Laboratorio"},
-      {"nome": "assemblaggio", "ambiente": "Casa"},
-      {"nome": "confezione", "ambiente": "Casa"}
-    ],
-    "tableau": [
-      {"nome": "grafica", "ambiente": "Casa"},
-      {"nome": "bozza cliente", "ambiente": "Casa"},
-      {"nome": "stampa forex", "ambiente": "Laboratorio"},
-      {"nome": "confezione", "ambiente": "Laboratorio"}
-    ],
-    "calligrafia": [
-      {"nome": "scrittura manuale", "ambiente": "Laboratorio"}
-    ],
-    "forex": [
-      {"nome": "grafica", "ambiente": "Casa"},
-      {"nome": "stampa forex", "ambiente": "Laboratorio"}
-    ]
-  }
-}
-"vincoli_temporali": {
-  "giorno_minimo": "oggi+1",
-  "vietato_pianificare": ["oggi", "giorni_passati"],
-  "rimuovi_ordini_vecchi_giorni": 14
-}
-"workflow_materiali": {
-  "partecipazioni_standard": [
-    "grafica",
-    "bozza",
-    "layout_stampa",
-    "stampa",
-    "taglio",
-    "controllo_qualita",
-    "confezione"
-  ],
-  "partecipazioni_nobilitate": [
-    "grafica",
-    "bozza",
-    "layout_stampa",
-    "invio_cliche",
-    "attesa_cliche",
-    "stampa",
-    "taglio",
-    "nobilitazione",
-    "controllo_qualita",
-    "confezione"
-  ],
-  "menu": [
-    "grafica",
-    "bozza",
-    "layout_stampa",
-    "stampa",
-    "taglio",
-    "controllo_qualita",
-    "confezione"
-  ],
-  "menu_nobilitati": [
-    "grafica",
-    "bozza",
-    "layout_stampa",
-    "invio_cliche",
-    "attesa_cliche",
-    "stampa",
-    "taglio",
-    "nobilitazione",
-    "controllo_qualita",
-    "confezione"
-  ],
-  "segnaposto": [
-    "grafica",
-    "stampa",
-    "taglio",
-    "confezione"
-  ],
-  "segnaposto_calligrafia": [
-    "grafica",
-    "scrittura_manuale",
-    "controllo_qualita",
-    "confezione"
-  ],
-  "forex": [
-    "grafica",
-    "bozza",
-    "stampa_forex",
-    "controllo_qualita",
-    "confezione"
-  ],
-  "libretti_messa": [
-    "raccolta_testi",
-    "grafica",
-    "bozza",
-    "layout_stampa",
-    "stampa",
-    "assemblaggio",
-    "confezione"
-  ],
-  "tableau": [
-    "grafica",
-    "bozza",
-    "stampa_forex",
-    "confezione"
-  ]
-}
-"invio_cliche": {
-  "attesa_giorni_lavorativi": 3,
-  "blocca_produzione_fino_arrivo": ["nobilitazione"]
-},
-"attesa_cliche": {
-  "consente_task_durante_attesa": ["taglio", "grafica_altri_ordini", "controllo_qualita", "stampa_digitale"]
-}
-"gestione_bozza": {
-  "giorni_attesa_standard": 1,
-  "followup_conferma_cliente": {
-    "abilitato": true,
-    "giorni_anticipo": 1,
-    "task_verifica_risposta": {
-      "nome": "Verifica risposta cliente",
-      "ambiente": "Casa",
-      "durata": "30min"
-    }
+    "partecipazioni_standard": ["grafica", "bozza cliente", "layout stampa", "stampa", "taglio", "controllo qualità", "confezione"],
+    "partecipazioni_nobilitate": ["grafica", "bozza cliente", "layout stampa", "ordine cliché", "attesa cliché", "stampa", "taglio", "nobilitazione", "controllo qualità", "confezione"],
+    "partecipazioni_nobilitate_con_nastri": ["grafica", "bozza cliente", "layout stampa", "ordine cliché", "attesa cliché", "stampa", "taglio", "nobilitazione", "assemblaggio inviti", "applicazione nastri/ceralacca", "controllo qualità", "confezione"],
+    "segnaposto": ["grafica", "stampa", "taglio", "confezione"],
+    "segnaposto_calligrafia": ["grafica", "scrittura manuale", "controllo qualità", "confezione"],
+    "menu": ["grafica", "bozza cliente", "stampa", "taglio", "confezione"],
+    "libretti_messa": ["raccolta testi", "grafica", "bozza cliente", "layout stampa", "stampa", "assemblaggio", "confezione"],
+    "tableau": ["grafica", "bozza cliente", "stampa forex", "confezione"],
+    "calligrafia": ["scrittura manuale"],
+    "forex": ["grafica", "stampa forex"]
   },
-  "gestione_revisioni": {
+
+  "workflow_materiali": {
+    "partecipazioni_nobilitate": ["grafica", "bozza cliente", "verifica risposta cliente", "layout stampa", "invio cliché", "attesa cliché", "stampa", "taglio", "nobilitazione", "controllo qualità", "confezione"]
+  },
+
+  "dipendenze_task": {
+    "bozza cliente": ["grafica"],
+    "verifica risposta cliente": ["bozza cliente"],
+    "layout stampa": ["verifica risposta cliente"],
+    "invio cliché": ["layout stampa"],
+    "attesa cliché": ["invio cliché"],
+    "nobilitazione": ["attesa cliché", "taglio"],
+    "controllo qualità": ["nobilitazione", "stampa", "taglio"],
+    "confezione": ["controllo qualità"]
+  },
+
+  "urgenze": {
     "abilitato": true,
-    "numero_massimo_revisioni": 2,
-    "tempo_extra_per_revisione": {
-      "durata": "1 giorno lavorativo",
-      "task_revisione": {
-        "nome": "Revisione bozza",
-        "ambiente": "Casa",
-        "durata": "1h"
+    "icona_identificativa": "⚠️",
+    "regole_eccezionali": {
+      "consenti_task_giorno_corrente": true,
+      "ignora_limite_ore_giornaliere": true,
+      "priorita_massima": true,
+      "followup_automatico": {
+        "abilitato": true,
+        "task": "Verifica immediata stato ordine urgente",
+        "durata": "15min",
+        "ambiente": "Casa"
       }
     }
   }
