@@ -77,38 +77,26 @@
           "ambiente": "Laboratorio"
         },
         {
-          "task_name": "Controllo e visua inviti",
+          "task_name": "Stampa seating chart",
           "data": "2025-04-09",
-          "ora": "09:06",
-          "ore": "09:36",
+          "ora": "11:00",
+          "ore": "11:20",
+          "ambiente": "Laboratorio"
+        },
+        {
+          "task_name": "Controllo e visua menu",
+          "data": "2025-04-09",
+          "ora": "11:20",
+          "ore": "12:20",
           "ambiente": "Laboratorio"
         },
         {
           "task_name": "Confezione",
-          "data": "2025-04-09",
-          "ora": "09:36",
-          "ore": "10:36",
+          "data": "2025-04-11",
+          "ora": "09:00",
+          "ore": "10:00",
           "ambiente": "Laboratorio"
         }
-      ],
-      "followup": [],
-      "ambiente": ""
-    },
-    {
-      "id": 1008,
-      "cliente": "Villa Erba",
-      "produtto": "Menu et gadget Villa Erba",
-      "quantita": 300, 
-      "data_evento": "2025-04-13",
-      "note": "",
-      "microtask": [
-        { "task_name": "Grafica menu", "data": "2025-04-07", "ora": "09:00", "ore": "10:30", "ambiente": "Casa"},
-        { "task_name": "Invio bozza cliente", "data": "2025-04-07", "ora": "10:30", "ore": "11:00", "ambiente": "Casa"},
-        {"task_name": "Layout stampa", "data": "2025-04-08", "ora": "09:00", "ore": "11:00", "ambiente": "Casa"},
-        {"task_name": "Stampa digitale", "data": "2025-04-09", "ora": "09:00", "ore": "11:00", "ambiente": "Laboratorio"},
-        {"task_name": "Taglio", "data": "2025-04-10", "ora": "09:00", "ore": "10:06", "ambiente": "Laboratorio"},
-        {"task_name": "Controllo e visua menu", "data": "2025-04-10", "ora": "10:06", "ore": "10:36", "ambiente": "Laboratorio"},
-        {"task_name": "Confezione", "data": "2025-04-11", "ora": "09:00", "ore": "10:00", "ambiente": "Laboratorio"}
       ],
       "followup": [],
       "ambiente": ""
