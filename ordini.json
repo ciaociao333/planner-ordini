@@ -32,6 +32,17 @@
       "microtask": [],
       "followup": [],
       "ambiente": ""
+    },
+    {
+      "id": 1005,
+      "cliente": "Maria",
+      "prodotto": "inviti goldato a caldo",
+      "quantita": 10,
+      "data_evento": "2025-04-03",
+      "note": "",
+      "microtask": [],
+      "followup": [],
+      "ambiente": ""
     }
   ],
   "impegni_personali": [
