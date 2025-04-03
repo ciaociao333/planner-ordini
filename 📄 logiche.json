@@ -18,27 +18,42 @@
     "ordine_fasi": [
       "Layout stampa (Casa)",
       "Invio cliché (se richiesto)",
-      "Stampa (Laboratorio)",
-      "Taglio (Laboratorio)",
-      "Nobilitazione (se richiesta, Laboratorio)",
+      "Stampa (può essere fatta durante l’attesa cliché)",
+      "Taglio (può essere fatto durante l’attesa cliché)",
+      "Nobilitazione (solo dopo arrivo cliché, in Laboratorio)",
       "Controllo + correzioni (Laboratorio)",
       "Confezione (Laboratorio)",
-      "Consegna ≥2 giorni lavorativi prima dell'evento"
+      "Consegna ≥2 giorni lavorativi prima dell’evento"
     ]
   },
   "ottimizzazione": {
     "accorpa_tagli": "programmare insieme tagli simili anche tra ordini diversi",
     "energia_massima": "6h/giorno lavorativo",
     "pausa": "12:30–14:00",
-    "niente_lavoro": ["sabato", "domenica"],
+    "niente_lavoro": [
+      "sabato",
+      "domenica"
+    ],
     "buffer_spostamenti": "30 minuti prima e dopo ogni impegno"
   },
   "ambienti": {
-    "Casa": ["grafica", "bozza", "email", "layout"],
-    "Laboratorio": ["stampa", "taglio", "nobilitazione", "confezione", "controllo", "spedizione"]
+    "Casa": [
+      "grafica",
+      "bozza",
+      "email",
+      "layout"
+    ],
+    "Laboratorio": [
+      "stampa",
+      "taglio",
+      "nobilitazione",
+      "confezione",
+      "controllo",
+      "spedizione"
+    ]
   },
   "regole_generali": [
-    "Ogni ordine prevede sempre una fase di grafica + bozza"
+    "Ogni ordine prevede sempre una fase di grafica + bozza",
     "Mai task nel giorno corrente",
     "Pianifica sempre dal giorno successivo",
     "Non pianificare task dopo la data evento"
