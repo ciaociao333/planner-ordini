@@ -150,3 +150,81 @@
   "vietato_pianificare": ["oggi", "giorni_passati"],
   "rimuovi_ordini_vecchi_giorni": 14
 }
+"workflow_materiali": {
+  "partecipazioni_standard": [
+    "grafica",
+    "bozza",
+    "layout_stampa",
+    "stampa",
+    "taglio",
+    "controllo_qualita",
+    "confezione"
+  ],
+  "partecipazioni_nobilitate": [
+    "grafica",
+    "bozza",
+    "layout_stampa",
+    "invio_cliche",
+    "attesa_cliche",
+    "stampa",
+    "taglio",
+    "nobilitazione",
+    "controllo_qualita",
+    "confezione"
+  ],
+  "menu": [
+    "grafica",
+    "bozza",
+    "layout_stampa",
+    "stampa",
+    "taglio",
+    "controllo_qualita",
+    "confezione"
+  ],
+  "menu_nobilitati": [
+    "grafica",
+    "bozza",
+    "layout_stampa",
+    "invio_cliche",
+    "attesa_cliche",
+    "stampa",
+    "taglio",
+    "nobilitazione",
+    "controllo_qualita",
+    "confezione"
+  ],
+  "segnaposto": [
+    "grafica",
+    "stampa",
+    "taglio",
+    "confezione"
+  ],
+  "segnaposto_calligrafia": [
+    "grafica",
+    "scrittura_manuale",
+    "controllo_qualita",
+    "confezione"
+  ],
+  "forex": [
+    "grafica",
+    "bozza",
+    "stampa_forex",
+    "controllo_qualita",
+    "confezione"
+  ],
+  "libretti_messa": [
+    "raccolta_testi",
+    "grafica",
+    "bozza",
+    "layout_stampa",
+    "stampa",
+    "assemblaggio",
+    "confezione"
+  ],
+  "tableau": [
+    "grafica",
+    "bozza",
+    "stampa_forex",
+    "confezione"
+  ]
+}
