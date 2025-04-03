@@ -13,31 +13,14 @@
       "tempo_bozza_giorni": 7
     }
   },
-
   "grafica": {
     "ambiente": "Casa",
     "accorpamento_grafiche_stesso_giorno": true
   },
-
   "produzione": {
-    "richiede_cliche": [
-      "letterpress",
-      "nobilitazione oro",
-      "stampa con impianti"
-    ],
-    "attesa_cliche_giorni_lavorativi": 3,
-    "ordine_fasi": [
-      {"fase": "Layout stampa", "ambiente": "Casa"},
-      {"fase": "Invio cliché", "ambiente": "Casa", "richiesto_se_cliche": true},
-      {"fase": "Stampa", "ambiente": "Laboratorio", "puo_essere_fatta_durante_attesa_cliche": true},
-      {"fase": "Taglio", "ambiente": "Laboratorio", "puo_essere_fatto_durante_attesa_cliche": true},
-      {"fase": "Nobilitazione", "ambiente": "Laboratorio", "solo_dopo_arrivo_cliche": true},
-      {"fase": "Controllo e correzioni", "ambiente": "Laboratorio"},
-      {"fase": "Confezione", "ambiente": "Laboratorio"},
-      {"fase": "Consegna", "giorni_anticipo_minimo": 2}
-    ]
+    "richiede_cliche": ["letterpress", "nobilitazione oro", "stampa con impianti"],
+    "attesa_cliche_giorni_lavorativi": 3
   },
-
   "ottimizzazione": {
     "accorpa_tagli_simili": true,
     "max_ore_lavorative_giorno": 6,
@@ -46,65 +29,39 @@
     "buffer_spostamenti_minuti": 30,
     "buffer_impegni_personali_minuti": 30
   },
-
   "ambienti": {
     "Casa": ["grafica", "bozza", "email", "layout", "assemblaggio", "raccolta testi"],
-    "Laboratorio": ["stampa", "taglio", "nobilitazione", "confezione", "controllo", "spedizione", "scrittura manuale", "stampa forex"]
+    "Laboratorio": ["stampa", "taglio", "nobilitazione", "confezione", "controllo qualità", "spedizione", "scrittura manuale", "stampa forex"]
   },
-
   "regole_generali": {
     "grafica_e_bozza_sempre_richieste": true,
     "task_nel_giorno_corrente": false,
     "pianificazione_da_giorno_successivo": true,
     "task_dopo_data_evento": false
   },
-
   "reminder_automatici": {
     "testi_dati_mancanti_cliente": {"abilitato": true, "giorni_anticipo_task": 5},
+    "verifica_risposta_cliente": {"abilitato": true, "giorni_dopo_bozza": 1},
     "verifica_cliche": {"abilitato": true, "giorni_dopo_ordine": 3}
   },
-
-  "task_materiali": {
-    "partecipazioni_standard": ["grafica", "bozza cliente", "layout stampa", "stampa", "taglio", "controllo qualità", "confezione"],
-    "partecipazioni_nobilitate": ["grafica", "bozza cliente", "layout stampa", "ordine cliché", "attesa cliché", "stampa", "taglio", "nobilitazione", "controllo qualità", "confezione"],
-    "partecipazioni_nobilitate_con_nastri": ["grafica", "bozza cliente", "layout stampa", "ordine cliché", "attesa cliché", "stampa", "taglio", "nobilitazione", "assemblaggio inviti", "applicazione nastri/ceralacca", "controllo qualità", "confezione"],
-    "segnaposto": ["grafica", "stampa", "taglio", "confezione"],
-    "segnaposto_calligrafia": ["grafica", "scrittura manuale", "controllo qualità", "confezione"],
-    "menu": ["grafica", "bozza cliente", "stampa", "taglio", "confezione"],
-    "libretti_messa": ["raccolta testi", "grafica", "bozza cliente", "layout stampa", "stampa", "assemblaggio", "confezione"],
-    "tableau": ["grafica", "bozza cliente", "stampa forex", "confezione"],
-    "calligrafia": ["scrittura manuale"],
-    "forex": ["grafica", "stampa forex"]
+  "vincoli_temporali": {
+    "giorno_minimo": "oggi+1",
+    "vietato_pianificare": ["oggi", "giorni_passati"],
+    "rimuovi_ordini_vecchi_giorni": 14
   },
-
-  "workflow_materiali": {
-    "partecipazioni_nobilitate": ["grafica", "bozza cliente", "verifica risposta cliente", "layout stampa", "invio cliché", "attesa cliché", "stampa", "taglio", "nobilitazione", "controllo qualità", "confezione"]
-  },
-
   "dipendenze_task": {
     "bozza cliente": ["grafica"],
     "verifica risposta cliente": ["bozza cliente"],
     "layout stampa": ["verifica risposta cliente"],
     "invio cliché": ["layout stampa"],
     "attesa cliché": ["invio cliché"],
-    "nobilitazione": ["attesa cliché", "taglio"],
-    "controllo qualità": ["nobilitazione", "stampa", "taglio"],
+    "stampa": ["attesa cliché"],
+    "taglio": ["stampa"],
+    "nobilitazione": ["taglio"],
+    "controllo qualità": ["nobilitazione"],
     "confezione": ["controllo qualità"]
   },
-
-  "urgenze": {
-    "abilitato": true,
-    "icona_identificativa": "⚠️",
-    "regole_eccezionali": {
-      "consenti_task_giorno_corrente": true,
-      "ignora_limite_ore_giornaliere": true,
-      "priorita_massima": true,
-      "followup_automatico": {
-        "abilitato": true,
-        "task": "Verifica immediata stato ordine urgente",
-        "durata": "15min",
-        "ambiente": "Casa"
-      }
-    }
+  "task_materiali": {
+    "partecipazioni_nobilitate": ["grafica","bozza cliente","layout stampa","invio cliché","attesa cliché","stampa","taglio","nobilitazione","controllo qualità","confezione"]
   }
 }
