@@ -38,6 +38,7 @@
     "Laboratorio": ["stampa", "taglio", "nobilitazione", "confezione", "controllo", "spedizione"]
   },
   "regole_generali": [
+    "Ogni ordine prevede sempre una fase di grafica + bozza"
     "Mai task nel giorno corrente",
     "Pianifica sempre dal giorno successivo",
     "Non pianificare task dopo la data evento"
