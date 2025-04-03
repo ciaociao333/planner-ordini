@@ -1,0 +1,48 @@
+{
+  "bozza": {
+    "inviti_libretti": "richiede dati prima → crea follow-up prima della bozza",
+    "menu_segnaposto": "bozza possibile anche senza dati → follow-up prima della produzione",
+    "acquerelli": "bozza lunga (1 settimana)"
+  },
+  "grafica": {
+    "ambiente": "Casa",
+    "accorpamento": "grafica e bozze di più ordini se possibile nello stesso giorno"
+  },
+  "produzione": {
+    "richiede_cliche": [
+      "letterpress",
+      "nobilitazione oro",
+      "stampa con impianti"
+    ],
+    "attesa_cliche": "3 giorni lavorativi dopo invio layout",
+    "ordine_fasi": [
+      "Layout stampa (Casa)",
+      "Invio cliché (se richiesto)",
+      "Stampa (Laboratorio)",
+      "Taglio (Laboratorio)",
+      "Nobilitazione (se richiesta, Laboratorio)",
+      "Controllo + correzioni (Laboratorio)",
+      "Confezione (Laboratorio)",
+      "Consegna ≥2 giorni lavorativi prima dell'evento"
+    ]
+  },
+  "ottimizzazione": {
+    "accorpa_tagli": "programmare insieme tagli simili anche tra ordini diversi",
+    "energia_massima": "6h/giorno lavorativo",
+    "pausa": "12:30–14:00",
+    "niente_lavoro": ["sabato", "domenica"],
+    "buffer_spostamenti": "30 minuti prima e dopo ogni impegno"
+  },
+  "ambienti": {
+    "Casa": ["grafica", "bozza", "email", "layout"],
+    "Laboratorio": ["stampa", "taglio", "nobilitazione", "confezione", "controllo", "spedizione"]
+  },
+  "regole_generali": [
+    "Mai task nel giorno corrente",
+    "Pianifica sempre dal giorno successivo",
+    "Non pianificare task dopo la data evento"
+  ],
+  "reminder_automatici": [
+    "Testi nomi cliente se mancano: reminder 5 giorni prima della fase in cui servono"
+  ]
+}
