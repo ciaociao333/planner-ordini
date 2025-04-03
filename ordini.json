@@ -1,41 +1,30 @@
-{
-  "ordini": [
-    {
-      "giorno": "Friday, 04 April 2025",
-      "fascia": "09:00-�00:00",
-      "task": "Grafica – Villa Erba",
-      "prodotto": "Menus - Handmade paper"
-    },
-    {
-      "giorno": "Friday, 04 April 2025",
-      "fascia": "10:00-11:00",
-      "task": "Bozza cliente – Villa Erba",
-      "prodotto": "Menus - Handmade paper"
-    },
-    {
-      "giorno": "Friday, 04 April 2025",
-      "fascia": "11:00-12:00",
-      "task": "Stampa – Villa Erba",
-      "prodetto": "Menus - Handmade paper"
-    },
-    {
-      "giorno": "Friday, 04 April 2025",
-      "fascia": "12:00-13:00",
-      "task": "Taglio ₳ Villa Erba",
-      "prodotto": "Menus - Handmade paper"
-    },
-    {
-      "giorno": "Friday, 04 April 2025",
-      "fascia": "13:00-14:00",
-      "task": "Confezione – Villa Erba",
-      "prodotto": "Menus - Handmade paper"
-    },
-    {
-      "giorno": "Friday, 04 April 2025",
-      "fascia": "14:00-15:00",
-      "task": "Calligrafia – Villa Erba",
-      "prodetto": "Handmade calligraphy for menus"
-    }
-  ],
-  impegni_personali": []
-}
+[
+  {
+    "id": "ordine-001",
+    "cliente": "Chiara & Marco",
+    "evento": "2025-06-15",
+    "pianificazione": [
+      {
+        "data": "2025-04-04",
+        "task": "grafica",
+        "ambiente": "Casa",
+        "durata_minuti": 90,
+        "note": "Avvio layout grafico acquerello"
+      },
+      {
+        "data": "2025-04-05",
+        "task": "bozza",
+        "ambiente": "Casa",
+        "durata_minuti": 60,
+        "note": "Preparazione file per invio al cliente"
+      },
+      {
+        "data": "2025-04-06",
+        "task": "follow-up",
+        "ambiente": "Casa",
+        "durata_minuti": 5,
+        "note": "Controllo conferma cliente per bozza"
+      }
+    ]
+  }
+]
