@@ -1,60 +1,38 @@
 {
   "ordini": [
     {
-      "id": 1002,
-      "cliente": "Officine del Volo",
-      "prodotto": "Menù + Placecard + Pannelli Forex + Tableau",
-      "quantita": 150,
-      "data_evento": "2025-04-05",
+      "id": 1006,
+      "cliente": "Giovanna",
+      "prodotto": "20 inviti",
+      "quantita": 20,
+      "data_evento": "",
       "note": "",
-      "microtask": [],
-      "followup": [],
-      "ambiente": ""
-    },
-    {
-      "id": 1003,
-      "cliente": "Villa Erba",
-      "prodotto": "Menù + Calligrafia + Segnaposti + Cartelli + Tableau",
-      "quantita": 100,
-      "data_evento": "2025-04-13",
-      "note": "",
-      "microtask": [],
-      "followup": [],
-      "ambiente": ""
-    },
-    {
-      "id": 1004,
-      "cliente": "Fiorella Natalino",
-      "prodtto": "A7 card + seconda card + letterpress + 3D cliché + liner illustrato",
-      "quantita": 100,
-      "data_evento": "2025-04-19",
-      "note": "Invio inviti pervisto a metá aprile",
-      "microtask": [],
-      "followup": [],
-      "ambiente": ""
-    },
-    {
-      "id": 1005,
-      "cliente": "Maria",
-      "prodotto": "inviti goldato a caldo",
-      "quantita": 10,
-      "data_evento": "2025-04-03",
-      "note": "",
-      "microtask": [],
+      "microtask": [
+        {
+          "task_name": "Grafica inviti",
+          "data": "2025-04-04",
+          "ora": "09:00",
+          "ore": "10:00",
+          "ambiente": "Casa"
+        },
+        {
+          "task_name": "Invio bozza",
+          "data": "2025-04-04",
+          "ora": "10:00",
+          "ore": "10:30",
+          "ambiente": "Casa"
+        },
+        {
+          "task_name": "Confezione e rifrifo inviti",
+          "data": "2025-04-05",
+          "ora": "09:00",
+          "ore": "10:00",
+          "ambiente": "Casa"
+        }
+      ],
       "followup": [],
       "ambiente": ""
     }
   ],
-  "impegni_personali": [
-    {
-      "data": "2025-04-03T10:00:00",
-      "durata": 1,
-      "descrizione": "Medico"
-    },
-    {
-      "data": "2025-04-03T12:00:00",
-      "durata": 1,
-      "descrizione": "Psicologo"
-    }
-  ]
+  "impegni_personali": []
 }
