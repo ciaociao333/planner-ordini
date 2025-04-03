@@ -1,67 +1,50 @@
 {
-  "bozza": {
-    "inviti_libretti": {
-      "richiede_dati_cliente": true,
-      "followup_anticipo_giorni": 5
-    },
-    "menu_segnaposto": {
-      "richiede_dati_cliente": false,
-      "followup_prima_della_produzione": true,
-      "followup_anticipo_giorni": 5
-    },
-    "acquerelli": {
-      "tempo_bozza_giorni": 7
-    }
-  },
-  "grafica": {
-    "ambiente": "Casa",
-    "accorpamento_grafiche_stesso_giorno": true
-  },
-  "produzione": {
-    "richiede_cliche": ["letterpress", "nobilitazione oro", "stampa con impianti"],
-    "attesa_cliche_giorni_lavorativi": 3
-  },
-  "ottimizzazione": {
-    "accorpa_tagli_simili": true,
-    "max_ore_lavorative_giorno": 6,
-    "pausa_pranzo": {"inizio": "12:30", "fine": "14:00"},
-    "giorni_non_lavorativi": ["sabato", "domenica"],
-    "buffer_spostamenti_minuti": 30,
-    "buffer_impegni_personali_minuti": 30
-  },
-  "ambienti": {
-    "Casa": ["grafica", "bozza", "email", "layout", "assemblaggio", "raccolta testi"],
-    "Laboratorio": ["stampa", "taglio", "nobilitazione", "confezione", "controllo qualità", "spedizione", "scrittura manuale", "stampa forex"]
-  },
-  "regole_generali": {
-    "grafica_e_bozza_sempre_richieste": true,
-    "task_nel_giorno_corrente": false,
-    "pianificazione_da_giorno_successivo": true,
-    "task_dopo_data_evento": false
-  },
-  "reminder_automatici": {
-    "testi_dati_mancanti_cliente": {"abilitato": true, "giorni_anticipo_task": 5},
-    "verifica_risposta_cliente": {"abilitato": true, "giorni_dopo_bozza": 1},
-    "verifica_cliche": {"abilitato": true, "giorni_dopo_ordine": 3}
-  },
-  "vincoli_temporali": {
-    "giorno_minimo": "oggi+1",
-    "vietato_pianificare": ["oggi", "giorni_passati"],
-    "rimuovi_ordini_vecchi_giorni": 14
+  "task_per_articolo": {
+    "partecipazioni_nobilitate": [
+      {"nome": "grafica", "ambiente": "Casa"},
+      {"nome": "bozza cliente", "ambiente": "Casa"},
+      {"nome": "verifica risposta cliente", "ambiente": "Casa"},
+      {"nome": "layout stampa", "ambiente": "Casa"},
+      {"nome": "attesa cliché", "ambiente": "Casa"},
+      {"nome": "stampa digitale", "ambiente": "Laboratorio"},
+      {"nome": "taglio", "ambiente": "Laboratorio"},
+      {"nome": "nobilitazione", "ambiente": "Laboratorio"},
+      {"nome": "controllo qualità", "ambiente": "Laboratorio"},
+      {"nome": "assemblaggio e incollaggio buste", "ambiente": "Laboratorio"},
+      {"nome": "impacchettamento", "ambiente": "Laboratorio"},
+      {"nome": "spedizione", "ambiente": "Laboratorio"}
+    ],
+    "menu": [
+      {"nome": "grafica", "ambiente": "Casa"},
+      {"nome": "bozza cliente", "ambiente": "Casa"},
+      {"nome": "verifica risposta cliente", "ambiente": "Casa"},
+      {"nome": "stampa digitale", "ambiente": "Laboratorio"},
+      {"nome": "taglio", "ambiente": "Laboratorio"},
+      {"nome": "confezione", "ambiente": "Laboratorio"}
+    ]
   },
   "dipendenze_task": {
     "bozza cliente": ["grafica"],
     "verifica risposta cliente": ["bozza cliente"],
     "layout stampa": ["verifica risposta cliente"],
-    "invio cliché": ["layout stampa"],
-    "attesa cliché": ["invio cliché"],
-    "stampa": ["attesa cliché"],
-    "taglio": ["stampa"],
-    "nobilitazione": ["taglio"],
+    "attesa cliché": ["layout stampa"],
+    "stampa digitale": ["layout stampa"],
+    "taglio": ["stampa digitale"],
+    "nobilitazione": ["taglio", "attesa cliché"],
     "controllo qualità": ["nobilitazione"],
-    "confezione": ["controllo qualità"]
+    "assemblaggio e incollaggio buste": ["controllo qualità"],
+    "impacchettamento": ["assemblaggio e incollaggio buste"],
+    "spedizione": ["impacchettamento"]
   },
-  "task_materiali": {
-    "partecipazioni_nobilitate": ["grafica","bozza cliente","layout stampa","invio cliché","attesa cliché","stampa","taglio","nobilitazione","controllo qualità","confezione"]
+  "attese": {
+    "attesa cliché": {
+      "durata_giorni_lavorativi": 3,
+      "task_consentiti_durante": ["stampa digitale", "taglio", "grafica altri ordini", "controllo qualità altri"]
+    }
+  },
+  "vincoli_temporali": {
+    "inizio_pianificazione": "oggi+1",
+    "escludi_giorni": ["oggi", "sabato", "domenica"],
+    "rimuovi_ordini_vecchi_giorni": 14
   }
 }
