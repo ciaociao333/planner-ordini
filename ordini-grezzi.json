@@ -1,5 +1,39 @@
 {
-  "tipo": "ordine",
-  "cliente": "Anastasia",
-  "prodello": "20 inviti con busta"
+  "cliente": "Villa Erba",
+  "data_evento": "2025-04-13",
+  "produzioni": [
+    {
+      "prodotto": "Menus",
+      "categoria": "Uncategorized",
+      "materiale": "Handmade paper",
+      "quantita": 100,
+      "prezzo": 300.00
+    },
+    {
+      "prodotto": "Handmade calligraphy for menus",
+      "materiale": "Digitalized calligraphy",
+      "quantita": 1,
+      "prezzo": 120.0
+    },
+    {
+      "prodotto": "Ribbon place cards",
+      "quantita": 100,
+      "prezzo": 270.0
+    },
+    {
+      "prodotto": "Signage - forex",
+      "materiale": "Forex signage",
+      "quantita": 7,
+      "prezzo": 245.0
+    },
+    {
+      "prodotto": "Table numbers",
+      "materiale": "Self standing double paper - 650 gsm",
+      "quantita": 10,
+      "prezzo": 140.0
+    },
+    {
+      "prodotto": "Seating chart - 3 box composition"
+    }
+  ]
 }
