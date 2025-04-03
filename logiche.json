@@ -1,12 +1,21 @@
 {
   "bozza": {
-    "inviti_libretti": "richiede dati prima → crea follow-up prima della bozza",
-    "menu_segnaposto": "bozza possibile anche senza dati → follow-up prima della produzione",
-    "acquerelli": "bozza lunga (1 settimana)"
+    "inviti_libretti": {
+      "richiede_dati_cliente": true,
+      "followup_anticipo_giorni": 5
+    },
+    "menu_segnaposto": {
+      "richiede_dati_cliente": false,
+      "followup_prima_della_produzione": true,
+      "followup_anticipo_giorni": 5
+    },
+    "acquerelli": {
+      "tempo_boza_giorni": 7
+    }
   },
   "grafica": {
     "ambiente": "Casa",
-    "accorpamento": "grafica e bozze di più ordini se possibile nello stesso giorno"
+    "accorpamento_grafiche_stesso_giorno": true
   },
   "produzione": {
     "richiede_cliche": [
@@ -14,51 +23,42 @@
       "nobilitazione oro",
       "stampa con impianti"
     ],
-    "attesa_cliche": "3 giorni lavorativi dopo invio layout",
+    "attesa_cliche_giorni_lavorativi": 3,
     "ordine_fasi": [
-      "Layout stampa (Casa)",
-      "Invio cliché (se richiesto)",
-      "Stampa (può essere fatta durante l’attesa cliché)",
-      "Taglio (può essere fatto durante l’attesa cliché)",
-      "Nobilitazione (solo dopo arrivo cliché, in Laboratorio)",
-      "Controllo + correzioni (Laboratorio)",
-      "Confezione (Laboratorio)",
-      "Consegna ≥2 giorni lavorativi prima dell’evento"
+      {"fase": "Layout stampa", "ambiente": "Casa"},
+      {"fase": "Invio cliché", "ambiente": "Casa", "richiesto_se_cliche": true},
+      {"fase": "Stampa", "ambiente": "Laboratorio", "puo_essere_fatta_durante_attesa_cliche": true},
+      {"fase": "Taglio", "ambiente": "Laboratorio", "puo_essere_fatto_durante_attesa_cliche": true},
+      {"fase": "Nobilitazione", "ambiente": "Laboratorio", "solo_dopo_arrivo_cliche": true},
+      {"fase": "Controllo e correzioni", "ambiente": "Laboratorio"},
+      {"fase": "Confezione", "ambiente": "Laboratorio"},
+      {"fase": "Consegna", "giorni_anticipo_minimo": 2}
     ]
   },
   "ottimizzazione": {
-    "accorpa_tagli": "programmare insieme tagli simili anche tra ordini diversi",
-    "energia_massima": "6h/giorno lavorativo",
-    "pausa": "12:30–14:00",
-    "niente_lavoro": [
-      "sabato",
-      "domenica"
-    ],
-    "buffer_spostamenti": "30 minuti prima e dopo ogni impegno"
+    "accorpa_tagli_simili": true,
+    "max_ore_lavorative_giorno": 6,
+    "pausa_pranzo": {
+      "inizio": "12:30",
+      "fine": "14:00"
+    },
+    "giorni_non_lavorativi": ["sabato", "domenica"],
+    "buffer_spostamenti_minuti": 30
   },
   "ambienti": {
-    "Casa": [
-      "grafica",
-      "bozza",
-      "email",
-      "layout"
-    ],
-    "Laboratorio": [
-      "stampa",
-      "taglio",
-      "nobilitazione",
-      "confezione",
-      "controllo",
-      "spedizione"
-    ]
+    "Casa": ["grafica", "bozza", "email", "layout"],
+    "Laboratorio": ["stampa", "taglio", "nobilitazione", "confezione", "controllo", "spedizione"]
   },
-  "regole_generali": [
-    "Ogni ordine prevede sempre una fase di grafica + bozza",
-    "Mai task nel giorno corrente",
-    "Pianifica sempre dal giorno successivo",
-    "Non pianificare task dopo la data evento"
-  ],
-  "reminder_automatici": [
-    "Testi nomi cliente se mancano: reminder 5 giorni prima della fase in cui servono"
-  ]
+  "regole_generali": {
+    "grafica_e_bozza_sempre_richieste": true,
+    "task_nel_giorno_corrente": false,
+    "pianificazione_da_giorno_successivo": true,
+    "task_dopo_data_evento": false
+  },
+  "reminder_automatici": {
+    "testi_dati_mancanti_cliente": {
+      "abilitato": true,
+      "giorni_anticipo_task": 5
+    }
+  }
 }
