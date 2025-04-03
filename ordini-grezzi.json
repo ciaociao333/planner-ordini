@@ -1,15 +1,6 @@
 {
   "tipo": "ordine",
-  "id": 1005,
-  "cliente": "Maria",
-  "data_evento": "2025-04-03",
-  "inserito_il": "2025-04-03T00:00:00",
-  "dettagli": [
-    {
-      "prodotto": "inviti goldato a caldo",
-      "quantita": 10,
-      "prezzo_unitario": 3.0
-
-    }
-  ]
+  "cliente": "Giovanna",
+  "prodotto": "20 inviti",
+  "data_evento": ""
 }
