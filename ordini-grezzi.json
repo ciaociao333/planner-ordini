@@ -1,3 +1,77 @@
 {
-  "archivio": []
+  "archivio": [
+    {
+      "tipo": "ordine",
+      "id": 1002,
+      "cliente": "Officine del Volo",
+      "data_evento": "2025-04-05",
+      "inserito_il": "2025-04-03T04:33:54.055187",
+      "dettagli": [
+        {
+          "prodotto": "Menu per cena - flat con stampa digitale",
+          "quantita": 153,
+          "prezzo_unitario": 2.5
+        },
+        {
+          "prodotto": "Placecard lampada",
+          "quantita": 150,
+          "prezzo_unitario": 2.0
+        },
+        {
+          "prodotto": "Forex 5 mm panels 2mt x 1mt",
+          "quantita": 1,
+          "prezzo_unitario": 180.0
+        },
+        {
+          "prodotto": "Forex 5 mm panels 1.90mt x 1mt",
+          "quantita": 2,
+          "prezzo_unitario": 150.0
+        },
+        {
+          "prodotto": "Card segnatavolo",
+          "quantita": 11,
+          "prezzo_unitario": 5.5
+        }
+      ]
+    },
+    {
+      "tipo": "ordine",
+      "id": 1003,
+      "cliente": "Villa Erba",
+      "data_evento": "2025-04-13",
+      "inserito_il": "2025-04-03T04:33:54.055199",
+      "dettagli": [
+        {
+          "prodotto": "Menus - Handmade paper",
+          "quantita": 100,
+          "prezzo_unitario": 3.0
+        },
+        {
+          "prodotto": "Digitalized calligraphy for menus",
+          "quantita": 1,
+          "prezzo_unitario": 120.0
+        },
+        {
+          "prodotto": "Ribbon place cards",
+          "quantita": 100,
+          "prezzo_unitario": 2.7
+        },
+        {
+          "prodotto": "Signage - forex",
+          "quantita": 7,
+          "prezzo_unitario": 35.0
+        },
+        {
+          "prodotto": "Table numbers - Self standing",
+          "quantita": 10,
+          "prezzo_unitario": 14.0
+        },
+        {
+          "prodotto": "Seating chart - 3 box composition",
+          "quantita": 1,
+          "prezzo_unitario": 1200.0
+        }
+      ]
+    }
+  ]
 }
