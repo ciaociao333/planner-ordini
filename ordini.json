@@ -14,21 +14,21 @@
     {
       "id": 1003,
       "cliente": "Villa Erba",
-      "prodotto": "Menus (100x handmade paper) + Digitalized calligraphy (1x) + Ribbon place cards (100x) + Signage Forex (7x) + Table numbers (10x doppia carta 650gsm) + Seating chart 3-box composition",
-      "quantita": 219,
+      "prodotto": "Menù + Calligrafia + Segnaposti + Cartelli + Tableau",
+      "quantita": 100,
       "data_evento": "2025-04-13",
       "note": "",
       "microtask": [],
-      "folloup": [],
+      "followup": [],
       "ambiente": ""
     },
     {
       "id": 1004,
       "cliente": "Fiorella Natalino",
-      "prodotto": "A7 card 550 gsm (85x) + Seconda card 350 gsm (85x) + 3D cliché (1x) + 3D letterpress (85x) + Busta A7+p artigianale (85x) + Nobilitazione oro (85x) + Cliché incluso + Ceralacca bianca personalizzata (85x) + Liner con illustrazione digitale (75x) + Design incluso",
-      "quantita": 85,
+      "prodotto": "A7 card + seconda card + letterpress +3D cliché + liner illustrato",
+      "quantita": 100,
       "data_evento": "",
-      "note": "Invio inviti previsto a metá aprile",
+      "note": "Invio inviti previsto a meté aprile",
       "microtask": [],
       "followup": [],
       "ambiente": ""
@@ -44,11 +44,6 @@
       "data": "2025-04-03T12:00:00",
       "durata": 1,
       "descrizione": "Psicologo"
-    },
-    {
-      "data": "2025-04-15T09:00:00",
-      "durata": 1,
-      "descrizione": "Avvia produzione inviti Fiorella Natalino"
     }
   ]
 }
