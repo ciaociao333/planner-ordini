@@ -145,3 +145,8 @@
     ]
   }
 }
+"vincoli_temporali": {
+  "giorno_minimo": "oggi+1",
+  "vietato_pianificare": ["oggi", "giorni_passati"],
+  "rimuovi_ordini_vecchi_giorni": 14
+}
