@@ -21,6 +21,17 @@
       "microtask": [],
       "folloup": [],
       "ambiente": ""
+    },
+    {
+      "id": 1004,
+      "cliente": "Fiorella Natalino",
+      "prodotto": "A7 card 550 gsm (85x) + Seconda card 350 gsm (85x) + 3D cliché (1x) + 3D letterpress (85x) + Busta A7+p artigianale (85x) + Nobilitazione oro (85x) + Cliché incluso + Ceralacca bianca personalizzata (85x) + Liner con illustrazione digitale (75x) + Design incluso",
+      "quantita": 85,
+      "data_evento": "",
+      "note": "Invio inviti previsto a metá aprile",
+      "microtask": [],
+      "followup": [],
+      "ambiente": ""
     }
   ],
   "impegni_personali": [
@@ -33,6 +44,11 @@
       "data": "2025-04-03T12:00:00",
       "durata": 1,
       "descrizione": "Psicologo"
+    },
+    {
+      "data": "2025-04-15T09:00:00",
+      "durata": 1,
+      "descrizione": "Avvia produzione inviti Fiorella Natalino"
     }
   ]
 }
