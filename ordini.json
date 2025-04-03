@@ -1,4 +1,41 @@
 {
-  "ordini": [],
-  "impegni_personali": []
+  "ordini": [
+    {
+      "giorno": "Friday, 04 April 2025",
+      "fascia": "09:00-�00:00",
+      "task": "Grafica – Villa Erba",
+      "prodotto": "Menus - Handmade paper"
+    },
+    {
+      "giorno": "Friday, 04 April 2025",
+      "fascia": "10:00-11:00",
+      "task": "Bozza cliente – Villa Erba",
+      "prodotto": "Menus - Handmade paper"
+    },
+    {
+      "giorno": "Friday, 04 April 2025",
+      "fascia": "11:00-12:00",
+      "task": "Stampa – Villa Erba",
+      "prodetto": "Menus - Handmade paper"
+    },
+    {
+      "giorno": "Friday, 04 April 2025",
+      "fascia": "12:00-13:00",
+      "task": "Taglio ₳ Villa Erba",
+      "prodotto": "Menus - Handmade paper"
+    },
+    {
+      "giorno": "Friday, 04 April 2025",
+      "fascia": "13:00-14:00",
+      "task": "Confezione – Villa Erba",
+      "prodotto": "Menus - Handmade paper"
+    },
+    {
+      "giorno": "Friday, 04 April 2025",
+      "fascia": "14:00-15:00",
+      "task": "Calligrafia – Villa Erba",
+      "prodetto": "Handmade calligraphy for menus"
+    }
+  ],
+  impegni_personali": []
 }
