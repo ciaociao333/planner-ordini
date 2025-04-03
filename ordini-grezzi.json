@@ -1,34 +1,13 @@
 {
-  "nome_cliente": "Villa Erba",
-  "data": "2025-04-13",
+  "nome_cliente": "Natalino",
+  "data": "2025-04-16",
   "prodotti": [
-    {
-      "nome": "Menu su paper fatto a mano",
-      "quantita": 100
-    },
-    {
-      "nome": "Calligrafia a mano",
-      "quantita": 1
-    },
-    {
-      "nome": "Place cards con nastrino",
-      "quantita": 100
-    },
-    {
-      "nome": "Signage forex",
-      "quantita": 7
-    },
-    {
-      "nome": "Table numbers",
-      "quantita": 10
-    },
-    {
-      "nome": "Seating chart - 3 scattole",
-      "quantita": 1
-    },
-    {
-      "nome": "Delivery in location",
-      "quantita": 1
-    }
+    {"nome": "Card A7 artigianale (550gsm)", "quantita": 85},
+    {"nome": "Secondo card (350gsm)", "quantita": 85},
+    {"nome": "Ceralacca bianca personalizzata", "quantita": 85},
+    {"nome": "Liner illustrato digitale", "quantita": 85},
+    {"nome": "Busta A7 artigianale", "quantita": 85},
+    {"nome": "39 cliché Letterpress + oro a Caldo", "quantita": 1},
+    {"nome": "Design incluso", "quantita": 1}
   ]
 }
