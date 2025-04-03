@@ -10,7 +10,7 @@
       "followup_anticipo_giorni": 5
     },
     "acquerelli": {
-      "tempo_boza_giorni": 7
+      "tempo_bozza_giorni": 7
     }
   },
   "grafica": {
@@ -43,11 +43,12 @@
       "fine": "14:00"
     },
     "giorni_non_lavorativi": ["sabato", "domenica"],
-    "buffer_spostamenti_minuti": 30
+    "buffer_spostamenti_minuti": 30,
+    "buffer_impegni_personali_minuti": 30
   },
   "ambienti": {
-    "Casa": ["grafica", "bozza", "email", "layout"],
-    "Laboratorio": ["stampa", "taglio", "nobilitazione", "confezione", "controllo", "spedizione"]
+    "Casa": ["grafica", "bozza", "email", "layout", "assemblaggio", "raccolta testi"],
+    "Laboratorio": ["stampa", "taglio", "nobilitazione", "confezione", "controllo", "spedizione", "scrittura manuale", "stampa forex"]
   },
   "regole_generali": {
     "grafica_e_bozza_sempre_richieste": true,
@@ -59,6 +60,88 @@
     "testi_dati_mancanti_cliente": {
       "abilitato": true,
       "giorni_anticipo_task": 5
+    },
+    "verifica_cliche": {
+      "abilitato": true,
+      "giorni_dopo_ordine": 3
     }
+  },
+  "task_materiali": {
+    "partecipazioni_standard": [
+      {"nome": "grafica", "ambiente": "Casa"},
+      {"nome": "bozza cliente", "ambiente": "Casa"},
+      {"nome": "layout stampa", "ambiente": "Casa"},
+      {"nome": "stampa", "ambiente": "Laboratorio"},
+      {"nome": "taglio", "ambiente": "Laboratorio"},
+      {"nome": "controllo qualità", "ambiente": "Laboratorio"},
+      {"nome": "confezione", "ambiente": "Laboratorio"}
+    ],
+    "partecipazioni_nobilitate": [
+      {"nome": "grafica", "ambiente": "Casa"},
+      {"nome": "bozza cliente", "ambiente": "Casa"},
+      {"nome": "layout stampa", "ambiente": "Casa"},
+      {"nome": "ordine cliché", "ambiente": "Casa"},
+      {"nome": "attesa cliché", "ambiente": "Casa"},
+      {"nome": "stampa", "ambiente": "Laboratorio"},
+      {"nome": "taglio", "ambiente": "Laboratorio"},
+      {"nome": "nobilitazione", "ambiente": "Laboratorio"},
+      {"nome": "controllo qualità", "ambiente": "Laboratorio"},
+      {"nome": "confezione", "ambiente": "Laboratorio"}
+    ],
+    "partecipazioni_nobilitate_con_nastri": [
+      {"nome": "grafica", "ambiente": "Casa"},
+      {"nome": "bozza cliente", "ambiente": "Casa"},
+      {"nome": "layout stampa", "ambiente": "Casa"},
+      {"nome": "ordine cliché", "ambiente": "Casa"},
+      {"nome": "attesa cliché", "ambiente": "Casa"},
+      {"nome": "stampa", "ambiente": "Laboratorio"},
+      {"nome": "taglio", "ambiente": "Laboratorio"},
+      {"nome": "nobilitazione", "ambiente": "Laboratorio"},
+      {"nome": "assemblaggio inviti", "ambiente": "Casa"},
+      {"nome": "applicazione nastri/ceralacca", "ambiente": "Casa"},
+      {"nome": "controllo qualità", "ambiente": "Laboratorio"},
+      {"nome": "confezione", "ambiente": "Laboratorio"}
+    ],
+    "segnaposto": [
+      {"nome": "grafica", "ambiente": "Casa"},
+      {"nome": "stampa", "ambiente": "Laboratorio"},
+      {"nome": "taglio", "ambiente": "Laboratorio"},
+      {"nome": "confezione", "ambiente": "Laboratorio"}
+    ],
+    "segnaposto_calligrafia": [
+      {"nome": "grafica", "ambiente": "Casa"},
+      {"nome": "scrittura manuale", "ambiente": "Laboratorio"},
+      {"nome": "controllo qualità", "ambiente": "Laboratorio"},
+      {"nome": "confezione", "ambiente": "Laboratorio"}
+    ],
+    "menu": [
+      {"nome": "grafica", "ambiente": "Casa"},
+      {"nome": "bozza cliente", "ambiente": "Casa"},
+      {"nome": "stampa", "ambiente": "Laboratorio"},
+      {"nome": "taglio", "ambiente": "Laboratorio"},
+      {"nome": "confezione", "ambiente": "Laboratorio"}
+    ],
+    "libretti_messa": [
+      {"nome": "raccolta testi", "ambiente": "Casa"},
+      {"nome": "grafica", "ambiente": "Casa"},
+      {"nome": "bozza cliente", "ambiente": "Casa"},
+      {"nome": "layout stampa", "ambiente": "Casa"},
+      {"nome": "stampa", "ambiente": "Laboratorio"},
+      {"nome": "assemblaggio", "ambiente": "Casa"},
+      {"nome": "confezione", "ambiente": "Casa"}
+    ],
+    "tableau": [
+      {"nome": "grafica", "ambiente": "Casa"},
+      {"nome": "bozza cliente", "ambiente": "Casa"},
+      {"nome": "stampa forex", "ambiente": "Laboratorio"},
+      {"nome": "confezione", "ambiente": "Laboratorio"}
+    ],
+    "calligrafia": [
+      {"nome": "scrittura manuale", "ambiente": "Laboratorio"}
+    ],
+    "forex": [
+      {"nome": "grafica", "ambiente": "Casa"},
+      {"nome": "stampa forex", "ambiente": "Laboratorio"}
+    ]
   }
 }
