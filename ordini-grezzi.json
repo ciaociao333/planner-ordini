@@ -1,39 +1,36 @@
 {
-  "cliente": "Villa Erba",
+  "clinte": "Villa Erba",
   "data_evento": "2025-04-13",
-  "produzioni": [
+  "prodotti": [
     {
-      "prodotto": "Menus",
-      "categoria": "Uncategorized",
-      "materiale": "Handmade paper",
-      "quantita": 100,
-      "prezzo": 300.00
+      "item": "Menus",
+      "description": "Handmade paper",
+      "quantity": 100
     },
     {
-      "prodotto": "Handmade calligraphy for menus",
-      "materiale": "Digitalized calligraphy",
-      "quantita": 1,
-      "prezzo": 120.0
+      "item": "Handmade calligraphy for menus",
+      "description": "Digitalized calligraphy for menus",
+      "quantity": 1
     },
     {
-      "prodotto": "Ribbon place cards",
-      "quantita": 100,
-      "prezzo": 270.0
+      "item": "Ribbon place cards",
+      "description": "",
+      "quantity": 100
     },
     {
-      "prodotto": "Signage - forex",
-      "materiale": "Forex signage",
-      "quantita": 7,
-      "prezzo": 245.0
+      "item": "Signage - forex",
+      "description": "Forex signage",
+      "quantity": 7
     },
     {
-      "prodotto": "Table numbers",
-      "materiale": "Self standing double paper - 650 gsm",
-      "quantita": 10,
-      "prezzo": 140.0
+      "item": "Table numbers",
+      "description": "Self standing double paper - 650 gsm",
+      "quantity": 10
     },
     {
-      "prodotto": "Seating chart - 3 box composition"
+      "item": "Seating chart - 3 box composition",
+      "description": "",
+      "quantity": 1
     }
   ]
 }
