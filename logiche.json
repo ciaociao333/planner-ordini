@@ -1,67 +1,67 @@
 {
-  "bozza": {
-    "inviti_libretti": {
-      "richiede_dati_cliente": true,
-      "followup_anticipo_giorni": 5
-    },
-    "menu_segnaposto": {
-      "richiede_dati_cliente": false,
-      "followup_prima_della_produzione": true,
-      "followup_anticipo_giorni": 5
-    },
-    "acquerelli": {
-      "tempo_bozza_giorni": 7
-    }
+  "giorni_lavorativi": ["lun", "mar", "mer", "gio", "ven"],
+  "escludi_festivi": true,
+  "pausa_pranzo": {
+    "inizio": "13:00",
+    "fine": "14:00"
   },
-  "grafica": {
-    "ambiente": "Casa",
-    "accorpamento_grafiche_stesso_giorno": true
+  "preferenze_personali": {
+    "giorni_bassa_energia": ["2025-04-04", "2025-04-10"],
+    "ferie": ["2025-04-12", "2025-04-13"],
+    "no_task_intensi_durante_bassa_energia": true
   },
-  "produzione": {
-    "richiede_cliche": ["letterpress", "nobilitazione oro", "stampa con impianti"],
-    "attesa_cliche_giorni_lavorativi": 3
+  "ambiente_task": {
+    "grafica": "Casa",
+    "bozza": "Casa",
+    "revisione": "Casa",
+    "conferma_cliente": "Casa",
+    "taglio": "Laboratorio",
+    "stampa": "Laboratorio",
+    "nobilitazione": "Laboratorio",
+    "confezione": "Casa",
+    "spedizione": "Casa"
   },
-  "ottimizzazione": {
-    "accorpa_tagli_simili": true,
-    "max_ore_lavorative_giorno": 6,
-    "pausa_pranzo": {"inizio": "12:30", "fine": "14:00"},
-    "giorni_non_lavorativi": ["sabato", "domenica"],
-    "buffer_spostamenti_minuti": 30,
-    "buffer_impegni_personali_minuti": 30
+  "tempi_standard": {
+    "grafica": 90,
+    "bozza": 60,
+    "followup_bozza": 1,
+    "revisione_bozza": 30,
+    "attesa_conferma": 2,
+    "taglio_per_foglio": 0.6,
+    "attesa_cliché": 7,
+    "attesa_acquerello": 7,
+    "preparazione_finale": 60,
+    "confezione": 45,
+    "spedizione": 30,
+    "tempo_sicurezza_giorni": 2
   },
-  "ambienti": {
-    "Casa": ["grafica", "bozza", "email", "layout", "assemblaggio", "raccolta testi"],
-    "Laboratorio": ["stampa", "taglio", "nobilitazione", "confezione", "controllo qualità", "spedizione", "scrittura manuale", "stampa forex"]
+  "logica_task": [
+    "Inserire follow-up automatico 1 giorno dopo invio bozza",
+    "Nobilitazione solo dopo conferma bozza + 3 giorni lavorativi",
+    "Stampa prima del taglio",
+    "Taglio può avvenire durante attesa cliché",
+    "Consegna finale 2 giorni prima della data evento",
+    "Distribuire i task in modo bilanciato nella settimana",
+    "Non pianificare task intensi durante giorni a bassa energia"
+  ],
+  "limiti_giornalieri": {
+    "massimo_minuti_lavoro_al_giorno": 300,
+    "usa_limite_task": false
   },
-  "regole_generali": {
-    "grafica_e_bozza_sempre_richieste": true,
-    "task_nel_giorno_corrente": false,
-    "pianificazione_da_giorno_successivo": true,
-    "task_dopo_data_evento": false
+  "strategia_intelligente": {
+    "accorpamento_stampe": true,
+    "accorpamento_tagli": true,
+    "evita_spostamenti_non_necessari": true,
+    "prioritizza_task_da_casa_se_il_giorno_e_parziale": true,
+    "verifica_disponibilita_ambienti": true
   },
-  "reminder_automatici": {
-    "testi_dati_mancanti_cliente": {"abilitato": true, "giorni_anticipo_task": 5},
-    "verifica_risposta_cliente": {"abilitato": true, "giorni_dopo_bozza": 1},
-    "verifica_cliche": {"abilitato": true, "giorni_dopo_ordine": 3}
+  "disponibilita_settimanale": {
+    "2025-04-03": {"casa": ["14:00", "18:00"], "lab": []},
+    "2025-04-04": {"casa": ["09:00", "12:30"], "lab": ["14:00", "17:00"]},
+    "2025-04-05": {"casa": [], "lab": []}
   },
-  "vincoli_temporali": {
-    "giorno_minimo": "oggi+1",
-    "vietato_pianificare": ["oggi", "giorni_passati"],
-    "rimuovi_ordini_vecchi_giorni": 14
-  },
-  "dipendenze_task": {
-    "bozza cliente": ["grafica"],
-    "verifica risposta cliente": ["bozza cliente"],
-    "layout stampa": ["verifica risposta cliente"],
-    "invio cliché": ["layout stampa"],
-    "attesa cliché": ["invio cliché"],
-    "stampa": ["attesa cliché"],
-    "taglio": ["stampa"],
-    "nobilitazione": ["taglio"],
-    "controllo qualità": ["nobilitazione"],
-    "confezione": ["controllo qualità"]
-  },
-  "task_materiali": {
-    "partecipazioni_nobilitate": ["grafica","bozza cliente","layout stampa","invio cliché","attesa cliché","stampa","taglio","nobilitazione","controllo qualità","confezione"]
+  "committer": {
+    "name": "Nome Cognome",
+    "email": "nome@esempio.com"
   }
 }
