@@ -228,3 +228,10 @@
     "confezione"
   ]
 }
+"invio_cliche": {
+  "attesa_giorni_lavorativi": 3,
+  "blocca_produzione_fino_arrivo": ["nobilitazione"]
+},
+"attesa_cliche": {
+  "consente_task_durante_attesa": ["taglio", "grafica_altri_ordini", "controllo_qualita", "stampa_digitale"]
+}
