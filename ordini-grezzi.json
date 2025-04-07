@@ -1,1 +1,18 @@
-{"pianificazion": [{"giorno": "2025-04-03", "ambiente": "Casa", "task_list": [{"ora": "14:00", "durata": "02:00", "nome": "Grafica menu e place cards - Villa Erba"}]}, {"giorno": "2025-04-04", "ambiente": "Casa", "task_list": [{"hora": "14:00", "durata": "02:00", "nome": "Bozza grafica seating chart - Villa Erba"}]}, {"giorno": "2025-04-07", "ambiente": "Casa", "task_list": [{"hora": "09:00", "durata": "02:00", "nome": "Grafica inviti prima bozja - Natalino"}, {"hora": "11:30", "durata": "02:00", "nome": "Grafica liner e cliciê - Natalino"}, {"hora": "14:00", "durata": "02:00", "nome": "Revisione grafica + invio conferma - Villa Erba"}]}]}
+{
+  "plannificazion": [
+    {
+      "giorno": "2025-04-03",
+      "ambiente": "Casa",
+      "task_list": [
+        {"ora": "14:00", "durata": "02:00", "nome": "Grafica menu e place cards - Villa Erba"}
+      ]
+    },
+    {
+      "giorno": "2025-04-04",
+      "ambiente": "Casa",
+      "task_list": [
+        {"hora": "14:00", "durata": "02:00", "nome": "Bozza grafica seating chart - Villa Erba"}
+      ]
+    }
+  ]
+}
