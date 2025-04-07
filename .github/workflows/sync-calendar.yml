@@ -14,38 +14,33 @@ jobs:
 
       - name: Read and send events to Google Calendar
         run: |
-          python3 <<EOF
-import json
-import requests
-from datetime import datetime
+          import json
+          import requests
+          from datetime import datetime
 
-# Carica file ordini.json
-with open("ordini.json", "r", encoding="utf-8") as f:
-    data = json.load(f)
+          with open("ordini.json", "r", encoding="utf-8") as f:
+              data = json.load(f)
 
-tasks = data.get("pianificazione", [])
+          tasks = data.get("pianificazione", [])
+          eventi = []
 
-eventi = []
+          for giorno in tasks:
+              data_g = giorno.get("giorno")
+              for task in giorno.get("task_list", []):
+                  start = datetime.strptime(f"{data_g} {task['ora']}", "%Y-%m-%d %H:%M")
+                  dur = task.get("durata", "00:30")
+                  h, m = map(int, dur.split(":"))
+                  end = start.replace(minute=start.minute + m, hour=start.hour + h)
+                  eventi.append({
+                      "titolo": task["nome"],
+                      "inizio": start.isoformat(),
+                      "fine": end.isoformat(),
+                      "descrizione": f"Cliente: {task['nome'].split('–')[-1].strip()}"
+                  })
 
-for giorno in tasks:
-    data_g = giorno.get("giorno")
-    ambiente = giorno.get("ambiente", "")
-    for task in giorno.get("task_list", []):
-        start = datetime.strptime(f"{data_g} {task['ora']}", "%Y-%m-%d %H:%M")
-        dur = task.get("durata", "00:30")
-        h, m = map(int, dur.split(":"))
-        end = start.replace(minute=start.minute + m, hour=start.hour + h)
-        eventi.append({
-            "titolo": task["nome"],
-            "inizio": start.isoformat(),
-            "fine": end.isoformat(),
-            "descrizione": f"Cliente: {task['nome'].split('–')[-1].strip()}"
-        })
+          response = requests.post(
+              "https://script.google.com/macros/s/AKfycby9TFzR8zYm1ezmvWZADRf3ntYCCV3jK5RJiF-D2zJj1t4vZoYHtW6Zm7igV_LEq-ZsA/exec",
+              json=eventi
+          )
 
-response = requests.post(
-    "https://script.google.com/macros/s/AKfycby9TFzR8zYm1ezmvWZADRf3ntYCCv3jM5kRjIF-D2zJj1t4vZoYHtW6Zm7igV_LEq-ZsA/exec",
-    json=eventi
-)
-
-print("Risposta dallo script Google:", response.text)
-EOF
+          print("Risposta dallo script Google:", response.text)
