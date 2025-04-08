@@ -1,25 +1,12 @@
 {
   "pianificazion": [
     {
-      "nome_cliente": "Boutique WP",
+      "nome_cliente": "Antonina",
       "articoli": [
-        {"name": "Wedding bags", "quantita": 55, "dettali": "30x40 cm - cotton fabric, stampa digitale"},
-        {"name": "Welcome bag programs", "quantita": 55},
-        {"name": "Forex Self-standing cocktails menus", "quantita": 6, "dettali": "2 welcome ; 4 wedding"},
-        {"name": "Menus", "quantita": 115, "dettali": "TBC on the design"},
-        {"name": "Name tags for limoncello", "quantita": 115},
-        {"name": "Table numbers", "quantita": 10},
-        {"name": "Place card on menus", "quantita": 115},
-        {"name": "Digital Calligraphy design for menus", "quantita": 1},
-        {"name": "Handmade calligraphy for name tags", "quantita": 100},
-        {"name": "Watercolor design items", "quantita": 1},
-        {"name": "Bags structure renting", "quantita": 1},
-        {"name": "Signage \"Grab your tag on your way out\"", "quantita": 1},
-        {"name": "Seating chart", "quantita": 0},
-        {"name": "Delivery all items to the Villa on the wedding day", "quantita": 1},
-        {"name": "Delivery all items to the location pre-wedding", "quantita": 1}
+        {"name": "Carta cotone artigianale, 20x10 cm ca", "quantita": 75},
+        {"name": "Ribbon placecards", "quantita": 75}
       ],
-      "scadenza": "2025-05-28"
+      "scadenza": "2025-06-07"
     }
   ]
 }
