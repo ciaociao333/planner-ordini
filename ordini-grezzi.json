@@ -1,14 +1,13 @@
 {
   "pianificazion": [
     {
-      "nome_cliente": "Vailati",
+      "nome_cliente": "Guja Joana",
       "articoli": [
-        {"name": "A7 card invito", "quantita": 70, "dettali": "stampa digitale"},
-        {"name": "Card info", "quantita": 70},
-        {"name": "A7 plus busta", "quantita": 70},
-        {"name": "Illustrazione", "quantita": 1, "dettali": "Location + sposi + cane ad acquerello per save the date"}
+        {"name": "Double folded 350 gsm card", "quantita": 65, "dettali": "stampa digitale fronte retro"},
+        {"name": "Envelope 135 gsm con addressing", "quantita": 65},
+        {"name": "Design", "quantita": 1 }
       ],
-      "scadenza": "2025-03-31"
+      "scadenza": "2025-04-16"
     }
   ]
 }
