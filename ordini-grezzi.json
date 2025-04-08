@@ -1,26 +1,24 @@
-{
-  "pianificazion": [
-    {
-      "nome_cliente": "Sposiamovi - Camilla Valentina",
-      "articoli": [
-        {"name": "Wedding itineraries welcome cards - trifold with printing", "quantita": 40},
-        {"name": "Name tags for welcome bag", "quantita": 40},
-        {"name": "Escort cards with ribbons for glasses", "quantita": 70},
-        {"name": "Bar sign", "quantita": 1},
-        {"name": "Food signs", "quantita": 1},
-        {"name": "Menu", "quantita": 70},
-        {"name": "Place cards", "quantita": 70},
-        {"name": "Table cards", "quantita": 7},
-        {"name": "Matches", "quantita": 70},
-        {"name": "8-10 Fans design (Michael's handwriting)", "quantita": 8, "dettali": "TBD ] t material"},
-        {"name": "Ceremony program", "quantita": 70, "dettali": "A5 card"},
-        {"name": "Menus for wedding day", "quantita": 70},
-        {"name": "Tinted table cards (self-standing)", "quantita": 7},
-        {"name": "Place cards ", "quantita": 70 },
-        {"name": "Bars signs", "quantita": 3},
-        {"name": "Matches for cigars", "quantita": 70}
-      ],
-      "scadenza": "2025-06-15"
-    }
-  ]
-}
+[
+  {
+    "cliente": "Sposiamovi - Camilla Valentina",
+    "articoli": [
+      {"nome": "Wedding itineraries welcome cards - trifold with printing", "quantita": 40},
+      {"nome": "Name tags for welcome bag", "quantita": 40},
+      {"nome": "Escort cards with ribbons for glasses", "quantita": 70},
+      {"nome": "Bar sign", "quantita": 1},
+      {"nome": "Food signs", "quantita": 1},
+      {"nome": "Menu", "quantita": 70},
+      {"nome": "Place cards", "quantita": 70},
+      {"nome": "Table cards", "quantita": 7},
+      {"nome": "Matches", "quantita": 70},
+      {"nome": "8-10 Fans design (Michael's handwriting)", "quantita": 8, "dettagli": "TBD material"},
+      {"nome": "Ceremony program", "quantita": 70, "dettagli": "A5 card"},
+      {"nome": "Menus for wedding day", "quantita": 70},
+      {"nome": "Tinted table cards (self-standing)", "quantita": 7},
+      {"nome": "Place cards", "quantita": 70},
+      {"nome": "Bars signs", "quantita": 3},
+      {"nome": "Matches for cigars", "quantita": 70}
+    ],
+    "data_evento": "2025-06-15"
+  }
+]
