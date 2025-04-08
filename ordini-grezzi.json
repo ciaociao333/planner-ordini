@@ -1,3 +1,15 @@
 {
-  "pianificazione": []
+  "pianificazion": [{
+    "nome_cliente": "Lillo",
+    "articoli": [
+      { "name": "Card invito 350 gsm", "quantita": 65 },
+      { "name": "Stampa oro a caldo", "quantita": 65 },
+      { "name": "Cliché per oro a caldo", "quantita": 1},
+      {
+      "name": "Busta realizzata a mano con sigillo", "quantita": 65
+      },
+      { "name": "Card secondaria sagomata", "quantita": 65 }
+    ],
+    "scadenza": "2025-04-16"
+  }]
 }
