@@ -1,12 +1,26 @@
 {
   "pianificazion": [
     {
-      "nome_cliente": "Antonina",
+      "nome_cliente": "Sposiamovi - Camilla Valentina",
       "articoli": [
-        {"name": "Carta cotone artigianale, 20x10 cm ca", "quantita": 75},
-        {"name": "Ribbon placecards", "quantita": 75}
+        {"name": "Wedding itineraries welcome cards - trifold with printing", "quantita": 40},
+        {"name": "Name tags for welcome bag", "quantita": 40},
+        {"name": "Escort cards with ribbons for glasses", "quantita": 70},
+        {"name": "Bar sign", "quantita": 1},
+        {"name": "Food signs", "quantita": 1},
+        {"name": "Menu", "quantita": 70},
+        {"name": "Place cards", "quantita": 70},
+        {"name": "Table cards", "quantita": 7},
+        {"name": "Matches", "quantita": 70},
+        {"name": "8-10 Fans design (Michael's handwriting)", "quantita": 8, "dettali": "TBD ] t material"},
+        {"name": "Ceremony program", "quantita": 70, "dettali": "A5 card"},
+        {"name": "Menus for wedding day", "quantita": 70},
+        {"name": "Tinted table cards (self-standing)", "quantita": 7},
+        {"name": "Place cards ", "quantita": 70 },
+        {"name": "Bars signs", "quantita": 3},
+        {"name": "Matches for cigars", "quantita": 70}
       ],
-      "scadenza": "2025-06-07"
+      "scadenza": "2025-06-15"
     }
   ]
 }
