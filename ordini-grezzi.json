@@ -1,49 +1,25 @@
 {
   "pianificazion": [
     {
-      "nome_cliente": "Lillo",
+      "nome_cliente": "Boutique WP",
       "articoli": [
-        {"name": "Card invito 350 gsm", "quantita": 65},
-        {"name": "Stampa oro a caldo", "quantita": 65},
-        {"name": "Cliché per oro a caldo", "quantita": 1},
-        {"name": "Busta fatta a mano con sigillo", "quantita": 65},
-        {"name": "Card secondaria sagomata", "quantita": 65}
+        {"name": "Wedding bags", "quantita": 55, "dettali": "30x40 cm - cotton fabric, stampa digitale"},
+        {"name": "Welcome bag programs", "quantita": 55},
+        {"name": "Forex Self-standing cocktails menus", "quantita": 6, "dettali": "2 welcome ; 4 wedding"},
+        {"name": "Menus", "quantita": 115, "dettali": "TBC on the design"},
+        {"name": "Name tags for limoncello", "quantita": 115},
+        {"name": "Table numbers", "quantita": 10},
+        {"name": "Place card on menus", "quantita": 115},
+        {"name": "Digital Calligraphy design for menus", "quantita": 1},
+        {"name": "Handmade calligraphy for name tags", "quantita": 100},
+        {"name": "Watercolor design items", "quantita": 1},
+        {"name": "Bags structure renting", "quantita": 1},
+        {"name": "Signage \"Grab your tag on your way out\"", "quantita": 1},
+        {"name": "Seating chart", "quantita": 0},
+        {"name": "Delivery all items to the Villa on the wedding day", "quantita": 1},
+        {"name": "Delivery all items to the location pre-wedding", "quantita": 1}
       ],
-      "scadenza": "2025-04-16"
-    },
-    {
-      "nome_cliente": "Vailati",
-      "articoli": [
-        {"name": "A7 card invito", "quantita": 70, "dettali": "stampa digitale"},
-        {"name": "Card info", "quantita": 70},
-        {"name": "A7 plus busta", "quantita": 70},
-        {"name": "Illustrazione", "quantita": 1, "dettali": "Location + sposi + cane ad acquerello per save the date"}
-      ],
-      "scadenza": "2025-04-20"
-   },
-    {
-      "nome_cliente": "Guja Joana",
-      "articoli": [
-        {"name": "Double folded 350 gsm card", "quantita": 65, "dettali": "stampa digitale fronte retro"},
-        {"name": "Envelope 135 gsm con addressing", "quantita": 65},
-        {"name": "Design", "quantita": 1}
-      ],
-      "scadenza": "2025-04-16"},
-    {
-      "nome_cliente": "Kara",
-      "articoli": [
-        {"name": "Cotton bags", "quantita": 30, "dettali": "monocolor printing"},
-        {"name": "Menus hardboard folded", "quantita": 10},
-        {"name": "Drink menu", "quantita": 2},
-        {"name": "Itinerary for welcome bag", "quantita": 30},
-        {"name": "Welcome bag structure", "dettali": "renting", "quantita": 1},
-        {"name": "Wedding day menu", "quantita": 30},
-        {"name": "Gold foilf letterpress", "quantita": 30},
-        {"name": "Placecards", "quantita": 30},
-        {"name": "Balbianello Draw", "quantita": 1},
-        {"name": "Delivery from studio to Villa balbianello + return day after from fc team", "quantita": 1}
-      ],
-      "scadenza": "2025-04-28"
-   }
+      "scadenza": "2025-05-28"
+    }
   ]
 }
