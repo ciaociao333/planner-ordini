@@ -18,6 +18,22 @@
         {"name": "Illustrazione", "quantita": 1, "dettali": "Location + sposi + cane ad acquerello per save the date"}
       ],
       "scadenza": "2025-04-20"
-   }
+   },
+    {
+      "nome_cliente": "Kara",
+      "articoli": [
+        {"name": "Cotton bags", "dettali": "monocolor printing", "quantita": 30},
+        {"name": "Menus hardboard folded", "quantita": 10},
+        {"name": "Drink menu", "quantita": 2},
+        {"name": "Itinerary for welcome bag", "quantita": 30},
+        {"name": "Welcome bag structure", "dettail": "renting", "quantita": 1},
+        {"name": "Wedding day menu", "quantita": 30},
+        {"name": "Gold foilf letterpress", "quantita": 30},
+        {"name": "Placecards", "quantita": 30},
+        {"name": "Balbianello Draw", "quantita": 1},
+        {"name": "Delivery from studio to villa balbianello + return day after from fc team", "quantita": 1}
+      ],
+      "scadenza": "2025-04-28"
+    }
   ]
 }
