@@ -1,6 +1,6 @@
 [
   {
-    "cliente": "Sposiamovi - Camilla Valentina",
+    "cliente": "Sposiamovi - Camilla Valentinia",
     "articoli": [
       {"nome": "Wedding itineraries welcome cards - trifold with printing", "quantita": 40},
       {"nome": "Name tags for welcome bag", "quantita": 40},
@@ -11,14 +11,43 @@
       {"nome": "Place cards", "quantita": 70},
       {"nome": "Table cards", "quantita": 7},
       {"nome": "Matches", "quantita": 70},
-      {"nome": "8-10 Fans design (Michael's handwriting)", "quantita": 8, "dettagli": "TBD material"},
-      {"nome": "Ceremony program", "quantita": 70, "dettagli": "A5 card"},
-      {"nome": "Menus for wedding day", "quantita": 70},
+      {"nome": "8-‡10 Fans design (Michael's handwriting)", "quantita": 8, "dettaghli": "TBD material"},
+      {"nome": "Ceremony program", "quantita": 70, "dettaghli": "A5 card"},
+      {"nome": "Menus sin wedding day", "quantita": 70},
       {"nome": "Tinted table cards (self-standing)", "quantita": 7},
       {"nome": "Place cards", "quantita": 70},
-      {"nome": "Bars signs", "quantita": 3},
-      {"nome": "Matches for cigars", "quantita": 70}
-    ],
+      {"nome": "Bars signs", "quantita": 3}],
     "data_evento": "2025-06-15"
+  },
+  {
+    "cliente": "Lillo",
+    "articoli": [
+      {"nome": "Card invito 350 gsm", "quantita": 65},
+      {"nome": "Stampa oro a caldo", "quantita": 65},
+      {"nome": "Clich√© per oro a caldo", "quantita": 1},
+      {"nome": "Busta fatta a mano con sigillo", "quantita": 65},
+      {"nome": "Card secondaria sagomata", "quantita": 65}
+    ],
+    "data_evento": "2025-04-16"
+  },
+  {
+    "cliente": "Vailati",
+    "articoli": [
+      {"nome": "A7 card invito", "quantita": 70},
+      {"nome": "Card info", "quantita": 70},
+      {"nome": "A7 plus busta", "quantita": 70},
+      {"nome": "Illustrazione (location)", "quantita": null}
+    ],
+    "data_evento": "2025-04-20"
+  },
+  {
+    "cliente": "Guja Joana",
+    "articoli": [
+      {"nome": "stampa digitale +sposi + cane ad acquerello", "quantita": null},
+      {"nome": "Double folded 350 gsm card - stampa digitale fronte retro", "quantita": 65},
+      {"nome": "Envelope 135 gsm con addressing", "quantita": 65},
+      {"nome": "Design", "quantita": 1}
+    ],
+    "data_evento": "2025-04-16"
   }
 ]
