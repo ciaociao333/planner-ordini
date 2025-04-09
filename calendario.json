@@ -1,3 +1,4 @@
 {
-  "2025-04-11": [{"nome": "preparazione_layout_stampa", "cliente": "Guja Joana", "durata_min": 90}, {"nome": "traduzione_stampe", "cliente": "Guja Joana", "durata_min": 45}],
- "2025-04-14": [{"nome": "produzione_tagli", "cliente": "Guja Joana", "durata_min": 60}, {"nome": "stampa_indirizzi_buste", "cliente": "Guja Joana", "durata_min": 45}, {"nome": "controllo.materiali", "cliente": "Guja Joana", "durata_min": 30}, {"nome": "confezione", "cliente": "Guja Joana", "durata_min": 45}, {"nome": "spedizione_o_consegna", "cliente": "Guja Joana", "durata_min": 30}]
+  "2025-04-11": [{"nome": "preparazione_layout_stampa", "cliente": "Lillo", "durata_min": 90}, {"nome": "traduzione_stampe", "cliente": "Lillo", "durata_min": 45}],
+  "2025-04-14": [{"nome": "produzione_tagli", "cliente": "Lillo", "durata_min": 60}],
+  "2025-04-17": [{"nome": "stampa_con_cliche", "cliente": "Lillo", "durata_min": 60}, {"nome": "stampa_indirizzi_buste", "cliente": "Lillo", "durata_min": 45}, {"nome": "controllo.materiali", "cliente": "Lillo", "durata_min": 30}, {"nome": "confezione", "cliente": "Lillo", "durata_min": 45}, {"nome": "spedizione_o_consegna", "cliente": "Lillo", "durata_min": 30}]}
