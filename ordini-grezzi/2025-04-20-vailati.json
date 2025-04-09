@@ -1,0 +1,12 @@
+{
+  "cliente": "Vaialati",
+  "articoli": [
+    { "nome": "A7 card invito", "quantita": 70 },
+    { "nome": "Card info", "quantita": 70 },
+    { "nome": "A7 plus busta", "quantita": 70 },
+    { "nome": "Illustrazione (location)", "quantita": null }
+  ],
+  "data_evento": "2025-04-20",
+  "versione": 1,
+  "data_inserimento": "2025-04-15T00:00:00"
+}
