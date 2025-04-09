@@ -1,0 +1,23 @@
+{
+  "cliente": "Boutique WP",
+  "articoli": [
+    { "nome": "Wedding bags", "quantita": 55 },
+    { "nome": "Welcome bag programs", "quantita": 55 },
+    { "nome": "Forex cocktail menus", "quantita": 6 },
+    { "nome": "Menù", "quantita": 115 },
+    { "nome": "Name tags for limoncello", "quantita": 115 },
+    { "nome": "Table numbers", "quantita": 10 },
+    { "nome": "Place card on menus", "quantita": 115 },
+    { "nome": "Digital calligraphy design", "quantita": 1 },
+    { "nome": "Handmade calligraphy for name tags", "quantita": 100 },
+    { "nome": "Watercolor design items", "quantita": 1 },
+    { "nome": "Bags structure renting", "quantita": 1 },
+    { "nome": "Signage Grab your bag", "quantita": 1 },
+    { "nome": "Seating chart", "quantita": 1 },
+    { "nome": "Delivery to Villa - wedding day", "quantita": 1 },
+    { "nome": "Delivery pre-wedding from studio", "quantita": 1 }
+  ],
+  "data_evento": "2025-05-28",
+  "versione": 1,
+  "data_inserimento": "2025-04-15T00:00:00"
+}
