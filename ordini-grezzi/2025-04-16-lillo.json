@@ -1,0 +1,13 @@
+{
+  "cliente": "Lillo",
+  "articoli": [
+    { "nome": "Card invito 350 gsm", "quantita": 65 },
+    { "nome": "Stampa oro a caldo", "quantita": 65 },
+    { "nome": "Clichè per oro a caldo", "quantita": 1 },
+    { "nome": "Busta fatta a mano con sigillo", "quantita": 65 },
+    { "nome": "Carta secondaria sagomata", "quantita": 65 }
+  ],
+  "data_evento": "2025-04-16",
+  "versione": 1,
+  "data_inserimento": "2025-04-15T00:00:00"
+}
