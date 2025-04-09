@@ -1,0 +1,8 @@
+{
+  "tasks": [
+    { "nome": "stampa digitale +sposi + cane ad acquerello", "cliente": "Guja Joana", "quantita": 1 },
+    { "nome": "double folded 350 gsm card - stampa digitale fronte retro", "cliente": "Guja Joana", "quantita": 65 },
+    { "nome": "envelope 135 gsm con addressing", "cliente": "Guja Joana", "quantita": 65 },
+    { "nome": "design", "cliente": "Guja Joana", "quantita": 1 }
+  ]
+}
