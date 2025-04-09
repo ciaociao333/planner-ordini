@@ -1,0 +1,15 @@
+{
+  "cliente": "Kara",
+  "tasks": [
+    { "nome": "cotton bags", "quantita": 30 },
+    { "nome": "menù hardboard folded", "quantita": 10 },
+    { "nome": "drink menu", "quantita": 2 },
+    { "nome": "itinerary for welcome bag", "quantita": 30 },
+    { "nome": "welcome bag structure", "quantita": 1, "dettagli": "renting" },
+    { "nome": "wedding day menu", "quantita": 30 },
+    { "nome": "gold foil letterpress", "quantita": 30 },
+    { "nome": "placecards", "quantita": 30 },
+    { "nome": "balbianello draw", "quantita": 1 },
+    { "nome": "delivery to villa balbianello + return", "quantita": 1 }
+  ]
+}
