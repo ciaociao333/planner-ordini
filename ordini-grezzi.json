@@ -2,127 +2,40 @@
   {
     "cliente": "Sposiamovi - Camilla Valentini",
     "articoli": [
-      { "nome": "Wedding itineraries welcome cards - trifold with printing", "quantita": 40 },
-      { "nome": "Name tags for welcome bag", "quantita": 40 },
-      { "nome": "Escort cards with ribbons for glasses", "quantita": 70 },
-      { "nome": "Bar sign", "quantita": 1 },
-      { "nome": "Food signs", "quantita": 1 },
-      { "nome": "Menu", "quantita": 70 },
-      { "nome": "Place cards", "quantita": 70 },
-      { "nome": "Table cards", "quantita": 7 },
-      { "nome": "Matches", "quantita": 70 },
-      { "nome": "8-10 Fans design (Michael's handwriting)", "quantita": 8, "dettagli": "TBD materiale" },
-      { "nome": "Ceremony program", "quantita": 70, "dettagli": "A5 card" },
-      { "nome": "Menus sin wedding day", "quantita": 70 },
-      { "nome": "Tinted table cards (self-standing)", "quantita": 7 },
-      { "nome": "Place cards", "quantita": 70 },
-      { "nome": "Bars signs", "quantita": 3 }
+      {"nome": "Wedding itineraries welcome cards - trifold with printing", "quantita": 40},
+      {"nome": "Name tags for welcome bag", "quantita": 40},
+      {"nome": "Escort cards with ribbons for glasses", "quantita": 70},
+      { "nome": "Bar sign", "quantita": 1},
+      {"nome": "Food signs", "quantita": 1},
+      {"nome": "Menu", "quantita": 70},
+      { "nome": "Place cards", "quantita": 70},
+      {"nome": "Table cards", "quantita": 7},
+      {"nome": "Matches", "quantita": 70},
+      {"nome": "8-10 Fans design (Michael's handwriting)", "quantita": 8, "dettaghli": "TBD Paper"},
+      {"nome": "Ceremony program", "quantita": 70, "dettaghli": "A5 card"},
+      {"nome": "Menus sin wedding day", "quantita": 70},
+      {"nome": "Tinted table cards (self-standing)", "quantita": 7},
+      {"nome": "Place cards", "quantita": 70},
+      {"nome": "Bars signs", "quantita": 3}
     ],
     "data_evento": "2025-06-15",
     "versione": 1,
     "data_inserimento": "2025-04-15T00:00:00"
   },
   {
-    "cliente": "Lillo",
+    "cliente": "Natalino",
     "articoli": [
-      { "nome": "Card invito 350 gsm", "quantita": 65 },
-      { "nome": "Stampa oro a caldo", "quantita": 65 },
-      { "nome": "Clichè per oro a caldo", "quantita": 1 },
-      { "nome": "Busta fatta a mano con sigillo", "quantita": 65 },
-      { "nome": "Carta secondaria sagomata", "quantita": 65 }
-    ],
-    "data_evento": "2025-04-16",
-    "versione": 1,
-    "data_inserimento": "2025-04-15T00:00:00"
-  },
-  {
-    "cliente": "Vaialati",
-    "articoli": [
-      { "nome": "A7 card invito", "quantita": 70 },
-      { "nome": "Card info", "quantita": 70 },
-      { "nome": "A7 plus busta", "quantita": 70 },
-      { "nome": "Illustrazione (location)", "quantita": null }
+      { "nome": "A7 card artigianale invito 550 gsm", "quantita": 85},
+      { "nome": "3d clichè", "quantita": 1},
+      { "nome": "3d letterpress", "quantita": 85},
+      { "nome": "Seconda card cardstock 350 gsm", "quantita": 85},
+      { "nome": "A7 plus busta", "quantita": 85},
+      { "nome": "Design incluso", "quantita": 0},
+      { "nome": "Nobilitazione stampa in letterpress oro (cliché incluso)", "quantita": 85},
+      { "nome": "Ceralacca personalizzata bianca", "quantita": 85},
+      { "nome": "Liner con illustrazione - digitale", "quantita": 75}
     ],
     "data_evento": "2025-04-20",
-    "versione": 1,
-    "data_inserimento": "2025-04-15T00:00:00"
-  },
-  {
-    "cliente": "Guja Joana",
-    "articoli": [
-      { "nome": "stampa digitale +sposi + cane ad acquerello", "quantita": null },
-      { "nome": "Double folded 350 gsm card - stampa digitale fronte retro", "quantita": 65 },
-      { "nome": "Envelope 135 gsm con addressing", "quantita": 65 },
-      { "nome": "Design", "quantita": 1 }
-    ],
-    "data_evento": "2025-04-16",
-    "versione": 1,
-    "data_inserimento": "2025-04-15T00:00:00"
-  },
-  {
-    "cliente": "Kara",
-    "articoli": [
-      { "nome": "Cotton bags", "quantita": 30 },
-      { "nome": "Menù hardboard folded", "quantita": 10 },
-      { "nome": "Drink menu", "quantita": 2 },
-      { "nome": "Itinerary for welcome bag", "quantita": 30 },
-      { "nome": "Welcome bag structure", "quantita": 1, "dettagli": "renting" },
-      { "nome": "Wedding day menu", "quantita": 30 },
-      { "nome": "Gold foil letterpress", "quantita": 30 },
-      { "nome": "Placecards", "quantita": 30 },
-      { "nome": "Balbianello Draw", "quantita": 1 },
-      { "nome": "Delivery to Villa Balbianello + return", "quantita": 1 }
-    ],
-    "data_evento": "2025-04-28",
-    "versione": 1,
-    "data_inserimento": "2025-04-15T00:00:00"
-  },
-  {
-    "cliente": "Boutique WP",
-    "articoli": [
-      { "nome": "Wedding bags", "quantita": 55 },
-      { "nome": "Welcome bag programs", "quantita": 55 },
-      { "nome": "Forex cocktail menus", "quantita": 6 },
-      { "nome": "Menù", "quantita": 115 },
-      { "nome": "Name tags for limoncello", "quantita": 115 },
-      { "nome": "Table numbers", "quantita": 10 },
-      { "nome": "Place card on menus", "quantita": 115 },
-      { "nome": "Digital calligraphy design", "quantita": 1 },
-      { "nome": "Handmade calligraphy for name tags", "quantita": 100 },
-      { "nome": "Watercolor design items", "quantita": 1 },
-      { "nome": "Bags structure renting", "quantita": 1 },
-      { "nome": "Signage Grab your bag", "quantita": 1 },
-      { "nome": "Seating chart", "quantita": 1 },
-      { "nome": "Delivery to Villa - wedding day", "quantita": 1 },
-      { "nome": "Delivery pre-wedding from studio", "quantita": 1 }
-    ],
-    "data_evento": "2025-05-28",
-    "versione": 1,
-    "data_inserimento": "2025-04-15T00:00:00"
-  },
-  {
-    "cliente": "Antonina",
-    "articoli": [
-      { "nome": "Carta cotone artigianale, 20x10 cm ca", "quantita": 75 },
-      { "nome": "Ribbon placecards", "quantita": 75 }
-    ],
-    "data_evento": "2025-06-07",
-    "versione": 1,
-    "data_inserimento": "2025-04-15T00:00:00"
-  },
-  {
-    "cliente": "Silvia - Sposiamovi (Luisa & Niko)",
-    "articoli": [
-      { "nome": "Signs food station welcome, wedding etc – forex self standing", "quantita": 20 },
-      { "nome": "Signage for food – small (welcome + pool party)", "quantita": 25 },
-      { "nome": "Limoncello bottle tag", "quantita": 150 },
-      { "nome": "Coaster – classic shape round or square 300 gsm", "quantita": 200 },
-      { "nome": "Wedding day menus with names", "quantita": 150 },
-      { "nome": "Paper fans with program", "quantita": 100 },
-      { "nome": "Table sign – welcome + wedding + pool party", "quantita": 30 },
-      { "nome": "Seating chart cards", "quantita": 150 }
-    ],
-    "data_evento": "2025-06-19",
     "versione": 1,
     "data_inserimento": "2025-04-15T00:00:00"
   }
