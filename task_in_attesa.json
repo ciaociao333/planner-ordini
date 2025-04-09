@@ -1,0 +1,9 @@
+[
+  {
+    "cliente": "Federica",
+    "task": "confezione",
+    "durata_min": 45,
+    "ambiente": "Laboratorio",
+    "deadline": "2025-06-15"
+  }
+]
