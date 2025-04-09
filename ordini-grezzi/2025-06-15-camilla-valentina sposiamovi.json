@@ -1,0 +1,23 @@
+{
+  "cliente": "Sposiamovi - Camilla Valentina sposiamovi",
+  "articoli": [
+    { "nome": "Wedding itineraries welcome cards - trifold with printing", "quantita": 40 },
+    { "nome": "Name tags for welcome bag", "quantita": 40 },
+    { "nome": "Escort cards with ribbons for glasses", "quantita": 70 },
+    { "nome": "Bar sign", "quantita": 1 },
+    { "nome": "Food signs", "quantita": 1 },
+    { "nome": "Menu", "quantita": 70 },
+    { "nome": "Place cards", "quantita": 70 },
+    { "nome": "Table cards", "quantita": 7 },
+    { "nome": "Matches", "quantita": 70 },
+    { "nome": "8-10 Fans design (Michael's handwriting)", "quantita": 8, "dettagli": "TBD materiale" },
+    { "nome": "Ceremony program", "quantita": 70, "dettagli": "A5 card" },
+    { "nome": "Menus sin wedding day", "quantita": 70 },
+    { "nome": "Tinted table cards (self-standing)", "quantita": 7 },
+    { "nome": "Place cards", "quantita": 70 },
+    { "nome": "Bars signs", "quantita": 3 }
+  ],
+  "data_evento": "2025-06-15",
+  "versione": 1,
+  "data_inserimento": "2025-04-15T00:00:00"
+}
