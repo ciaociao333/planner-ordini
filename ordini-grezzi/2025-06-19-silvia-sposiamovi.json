@@ -1,0 +1,16 @@
+{
+  "cliente": "Silvia - Sposiamovi (Luisa & Niko)",
+  "articoli": [
+    { "nome": "Signs food station welcome, wedding etc – forex self standing", "quantita": 20 },
+    { "nome": "Signage for food – small (welcome + pool party)", "quantita": 25 },
+    { "nome": "Limoncello bottle tag", "quantita": 150 },
+    { "nome": "Coaster – classic shape round or square 300 gsm", "quantita": 200 },
+    { "nome": "Wedding day menus with names", "quantita": 150 },
+    { "nome": "Paper fans with program", "quantita": 100 },
+    { "nome": "Table sign – welcome + wedding + pool party", "quantita": 30 },
+    { "nome": "Seating chart cards", "quantita": 150 }
+  ],
+  "data_evento": "2025-06-19",
+  "versione": 1,
+  "data_inserimento": "2025-04-15T00:00:00"
+}
