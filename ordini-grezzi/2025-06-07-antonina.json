@@ -1,0 +1,10 @@
+{
+  "cliente": "Antonina",
+  "articoli": [
+    { "nome": "Carta cotone artigianale, 20x10 cm ca", "quantita": 75 },
+    { "nome": "Ribbon placecards", "quantita": 75 }
+  ],
+  "data_evento": "2025-06-07",
+  "versione": 1,
+  "data_inserimento": "2025-04-15T00:00:00"
+}
