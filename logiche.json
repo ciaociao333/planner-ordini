@@ -1,6 +1,93 @@
 {
-  "giorni_lavorativi": ["lun", "mar", "mer", "gio", "ven"],
-  "escludi_festivi": true,
+  "sequenza_task": [
+    {
+      "nome": "bozza",
+      "durata_min": 60,
+      "ambiente": "Casa",
+      "attesa_giorni_lavorativi": 0
+    },
+    {
+      "nome": "followup_bozza",
+      "durata_min": 30,
+      "ambiente": "Casa",
+      "attesa_giorni_lavorativi": 1
+    },
+    {
+      "nome": "nuova_bozza",
+      "durata_min": 60,
+      "ambiente": "Casa",
+      "condizionale": true,
+      "attesa_giorni_lavorativi": 1
+    },
+    {
+      "nome": "preparazione_layout_stampa",
+      "durata_min": 90,
+      "ambiente": "Casa",
+      "attesa_giorni_lavorativi": 1
+    },
+    {
+      "nome": "invio_cliche",
+      "durata_min": 15,
+      "ambiente": "Casa",
+      "attesa_giorni_lavorativi": 0
+    },
+    {
+      "nome": "attesa_cliche",
+      "durata_min": 0,
+      "ambiente": "Casa",
+      "attesa_giorni_lavorativi": 3
+    },
+    {
+      "nome": "traduzione_stampe",
+      "durata_min": 45,
+      "ambiente": "Casa",
+      "attesa_giorni_lavorativi": 0
+    },
+    {
+      "nome": "produzione_tagli",
+      "durata_min": 60,
+      "ambiente": "Laboratorio",
+      "attesa_giorni_lavorativi": 0
+    },
+    {
+      "nome": "stampa_indirizzi_buste",
+      "durata_min": 45,
+      "ambiente": "Laboratorio",
+      "attesa_giorni_lavorativi": 0
+    },
+    {
+      "nome": "stampa_con_cliche",
+      "durata_min": 60,
+      "ambiente": "Laboratorio",
+      "attesa_giorni_lavorativi": 0
+    },
+    {
+      "nome": "controllo_materiali",
+      "durata_min": 30,
+      "ambiente": "Laboratorio",
+      "attesa_giorni_lavorativi": 0
+    },
+    {
+      "nome": "integrazione_materiali",
+      "durata_min": 30,
+      "ambiente": "Laboratorio",
+      "condizionale": true,
+      "attesa_giorni_lavorativi": 0
+    },
+    {
+      "nome": "confezione",
+      "durata_min": 45,
+      "ambiente": "Laboratorio",
+      "attesa_giorni_lavorativi": 1
+    },
+    {
+      "nome": "spedizione_o_consegna",
+      "durata_min": 30,
+      "ambiente": "Laboratorio",
+      "attesa_giorni_lavorativi": 0
+    }
+  ],
+  "tempo_sicurezza_giorni": 2,
   "pausa_pranzo": {
     "inizio": "13:00",
     "fine": "14:00"
@@ -9,57 +96,6 @@
     "giorni_bassa_energia": ["2025-04-04", "2025-04-10"],
     "ferie": ["2025-04-12", "2025-04-13"],
     "no_task_intensi_durante_bassa_energia": true
-  },
-  "ambiente_task": {
-    "grafica": "Casa",
-    "bozza": "Casa",
-    "revisione": "Casa",
-    "conferma_cliente": "Casa",
-    "taglio": "Laboratorio",
-    "stampa": "Laboratorio",
-    "nobilitazione": "Laboratorio",
-    "confezione": "Laboratorio",
-    "spedizione": "Laboratorio",
-    "controllo_materiali": "Laboratorio"
-  },
-  "tempi_standard": {
-    "grafica": 90,
-    "bozza": 60,
-    "followup_bozza": 1,
-    "revisione_bozza": 30,
-    "attesa_conferma": 2,
-    "taglio_per_foglio": 0.6,
-    "attesa_cliché": 7,
-    "attesa_acquerello": 7,
-    "preparazione_finale": 60,
-    "confezione": 45,
-    "spedizione": 30,
-    "tempo_sicurezza_giorni": 2
-  },
-  "sequenza_task": [
-    { "task": "bozza", "dopo": null },
-    { "task": "followup_bozza", "dopo": "bozza", "attesa_giorni": 1 },
-    { "task": "nuova_bozza", "dopo": "followup_bozza", "attesa_giorni": 1, "condizionale": true },
-    { "task": "preparazione_layout_stampa", "dopo": "nuova_bozza", "attesa_giorni": 1 },
-    { "task": "invio_cliche", "dopo": "preparazione_layout_stampa" },
-    { "task": "traduzione_stampe", "dopo": "preparazione_layout_stampa" },
-    { "task": "produzione_tagli", "dopo": "traduzione_stampe" },
-    { "task": "stampa_indirizzi_buste", "dopo": "produzione_tagli" },
-    { "task": "attesa_cliche", "dopo": "invio_cliche", "attesa_giorni_lavorativi": 3 },
-    { "task": "stampa_con_cliche", "dopo": "attesa_cliche" },
-    { "task": "controllo_materiali", "dopo": "stampa_con_cliche" },
-    { "task": "integrazione_materiali", "dopo": "controllo_materiali", "condizionale": true },
-    { "task": "confezione", "dopo": "controllo_materiali" },
-    { "task": "spedizione_o_consegna", "dopo": "confezione" }
-  ],
-  "logica_task": [
-    "Inserire follow-up automatico 1 giorno dopo invio bozza",
-    "Nobilitazione solo dopo conferma bozza + 3 giorni lavorativi",
-    "Stampa prima del taglio",
-    "Taglio può avvenire durante attesa cliché",
-    "Consegna finale 2 giorni prima della data evento",
-    "Distribuire i task in modo bilanciato nella settimana",
-    "Non pianificare task intensi durante giorni a bassa energia"
   },
   "limiti_giornalieri": {
     "massimo_minuti_lavoro_al_giorno": 400,
