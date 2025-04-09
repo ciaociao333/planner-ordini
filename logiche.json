@@ -38,13 +38,13 @@
       "attesa_giorni_lavorativi": 3
     },
     {
-      "nome": "traduzione_stampe",
+      "nome": "produzione_stampe",
       "durata_min": 45,
-      "ambiente": "Casa",
+      "ambiente": "laboratorio",
       "attesa_giorni_lavorativi": 0
     },
     {
-      "nome": "produzione_tagli",
+      "nome": "produzione_taglio",
       "durata_min": 60,
       "ambiente": "Laboratorio",
       "attesa_giorni_lavorativi": 0
