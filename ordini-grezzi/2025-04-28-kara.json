@@ -1,0 +1,18 @@
+{
+  "cliente": "Kara",
+  "articoli": [
+    { "nome": "Cotton bags", "quantita": 30 },
+    { "nome": "Menù hardboard folded", "quantita": 10 },
+    { "nome": "Drink menu", "quantita": 2 },
+    { "nome": "Itinerary for welcome bag", "quantita": 30 },
+    { "nome": "Welcome bag structure", "quantita": 1, "dettagli": "renting" },
+    { "nome": "Wedding day menu", "quantita": 30 },
+    { "nome": "Gold foil letterpress", "quantita": 30 },
+    { "nome": "Placecards", "quantita": 30 },
+    { "nome": "Balbianello Draw", "quantita": 1 },
+    { "nome": "Delivery to Villa Balbianello + return", "quantita": 1 }
+  ],
+  "data_evento": "2025-04-28",
+  "versione": 1,
+  "data_inserimento": "2025-04-15T00:00:00"
+}
