@@ -1,7 +1,12 @@
 {
-  "2025-01-01": {
-    "ore_occupate": 0,
-    "task": 0,
-    "clienti": []
+  "2025-04-11": {
+    "ore_occupate": 135,
+    "task": 2,
+    "clienti": ["Guja Joana"]
+  },
+  "2025-04-14": {
+    "ore_occupate": 210,
+    "task": 5,
+    "clienti": ["Guja Joana"]
   }
 }
