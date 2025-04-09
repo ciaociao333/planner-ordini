@@ -1,0 +1,17 @@
+{
+  "cliente": "Natalino",
+  "articoli": [
+    { "nome": "A7 card artigianale invito 550 gsm", "quantita": 85 },
+    { "nome": "3d cliché", "quantita": 1 },
+    { "nome": "3d letterpress", "quantita": 85 },
+    { "nome": "Seconda card cardstock 350 gsm", "quantita": 85 },
+    { "nome": "A7 plus busta", "quantita": 85 },
+    { "nome": "Design incluso", "quantita": 0 },
+    { "nome": "Nobilitazione stampa in letterpress oro", "quantita": 85 },
+    { "nome": "Ceralacca personalizzata bianca", "quantita": 85 },
+    { "nome": "Liner con illustrazione - digitale", "quantita": 75 }
+  ],
+  "data_evento": "2025-04-18",
+  "versione": 1,
+  "data_inserimento": "2025-04-09T15:00:00Z"
+}
