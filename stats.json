@@ -2,11 +2,16 @@
   "2025-04-11": {
     "ore_occupate": 135,
     "task": 2,
-    "clienti": ["Guja Joana"]
+    "clienti": ["Guja Joana","Lillo"]
   },
   "2025-04-14": {
+    "ore_occupate": 390,
+    "task": 7,
+    "clienti": ["Guja Joana"]
+  },
+  "2025-04-17": {
     "ore_occupate": 210,
     "task": 5,
-    "clienti": ["Guja Joana"]
+    "clienti": ["Lillo"]
   }
 }
