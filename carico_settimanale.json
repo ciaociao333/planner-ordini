@@ -1,1 +1,6 @@
-{}
+{
+  "2025-04-14": [{"nome": "produzione_stampa_digitale_fronte_retro", "durata_min": 45, "cliente": "Guja Joana"}],
+  "2025-04-15": [{"nome": "controllo_finale_ed_eventuali_modifiche", "durata_min": 60, "cliente": "Guja Joana"}],
+  "2025-04-16": [{"nome": "impacchettamento", "durata_min": 60, "cliente": "Guja Joana"}],
+  "2025-04-17": [{"nome": "consegna", "durata_min": 30, "cliente": "Guja Joana"}]
+}
