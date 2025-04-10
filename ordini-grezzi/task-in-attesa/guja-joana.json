@@ -1,0 +1,21 @@
+{
+  "cliente": "Guja Joana",
+  "data_evento": "2025-04-16",
+  "task": [
+    {
+      "nome": "produzione_stampa",
+      "quantita": 65,
+      "note": "Double folded 350 gsm card - stampa digitale fronte retro"
+    },
+    {
+      "nome": "produzione_stampa",
+      "quantita": 65,
+      "note": "Envelope 135 gsm con addressing"
+    },
+    {
+      "nome": "design",
+      "quantita": 1,
+      "note": "Design personalizzato"
+    }
+  ]
+}
