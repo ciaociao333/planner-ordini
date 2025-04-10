@@ -1,0 +1,24 @@
+{
+  "cliente": "Guja Joana",
+  "data_evento": "2025-04-16",
+  "tasks": [
+    {
+      "nome": "design_personalizzato",
+      "quantita": 1,
+      "durata_minuti": 60,
+      "ambiente": "Casa"
+    },
+    {
+      "nome": "produzione_stampa_digitale_fronte_retro",
+      "quantita": 65,
+      "durata_minuti": 45,
+      "ambiente": "Laboratorio"
+    },
+    {
+      "nome": "produzione_buste_addressing",
+      "quantita": 65,
+      "durata_minuti": 45,
+      "ambiente": "Laboratorio"
+    }
+  ]
+}
