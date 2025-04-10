@@ -1,0 +1,29 @@
+{
+  "cliente": "Guja Joana",
+  "tasks": [
+    {
+      "nome": "stampa digitale",
+      "quantita": 65,
+      "ambiente": "stampa",
+      "durata_min": 30,
+      "deadline": "2025-04-16",
+      "attesa": false
+    },
+    {
+      "nome": "buste indirizzate",
+      "quantita": 65,
+      "ambiente": "preparazione",
+      "durata_min": 45,
+      "deadline": "2025-04-16",
+      "attesa": false
+    },
+    {
+      "nome": "design",
+      "quantita": 1,
+      "ambiente": "grafica",
+      "durata_min": 60,
+      "deadline": "2025-04-16",
+      "attesa": false
+    }
+  ]
+}
