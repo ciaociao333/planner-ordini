@@ -1,0 +1,43 @@
+{
+  "cliente": "Lillo",
+  "data_evento": "2025-04-16",
+  "tasks": [
+    {
+      "nome": "bozza_iniziale",
+      "ambiente": "Casa",
+      "durata_min": 60
+    },
+    {
+      "nome": "stampa_digitale_e_taglio",
+      "ambiente": "Laboratorio",
+      "durata_min": 120,
+      "include_buste_e_indirizzi": true
+    },
+    {
+      "nome": "ordine_cliche",
+      "ambiente": "Casa",
+      "durata_min": 15,
+      "condizionale": true,
+      "attesa_arrivo_cliche": 3
+    },
+    {
+      "nome": "stampa_nobilitazioni_cliche",
+      "ambiente": "Laboratorio",
+      "durata_min": 90,
+      "condizionale": true,
+      "richiade_arrivo_cliche": true
+    },
+    {
+      "nome": "produzione_acquerello",
+      "ambiente": "Casa",
+      "durata_min": 90,
+      "condizionale": true
+    },
+    {
+      "nome": "followup_proattivo_cliente",
+      "ambiente": "Casa",
+      "durata_min": 15,
+      "condizionale": "data_cliente_mancante"
+    }
+  ]
+}
