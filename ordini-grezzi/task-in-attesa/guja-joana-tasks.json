@@ -1,0 +1,31 @@
+{
+  "cliente": "Guja Joana",
+  "data_evento": "2025-04-16",
+  "tasks": [
+    {
+      "nome": "produzione_stampadigitale",
+      "articolo": "stampa digitale +sposi + cane ad acquerello",
+      "durata_min": 60,
+      "ambiente": "Laboratorio"
+    },
+    {
+      "nome": "produzione_stampadigitale",
+      "articolo": "Double folded 350 gsm card - stampa digitale fronte retro",
+      "quantita": 65,
+      "durata_min": 45,
+      "ambiente": "Laboratorio"
+    },
+    {
+      "nome": "produzione_stampadigitale",
+      "articolo": "Envelope 135 gsm con addressing",
+      "quantita": 65,
+      "durata_min": 45,
+      "ambiente": "Laboratorio"
+    },
+    {
+      "nome": "design",
+      "durata_min": 60,
+      "ambiente": "Casa"
+    }
+  ]
+}
