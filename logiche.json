@@ -1,120 +1,54 @@
 {
   "sequenza_task": [
-    {
-      "nome": "bozza",
-      "durata_min": 60,
-      "ambiente": "Casa",
-      "attesa_giorni_lavorativi": 0
-    },
-    {
-      "nome": "followup_bozza",
-      "durata_min": 30,
-      "ambiente": "Casa",
-      "attesa_giorni_lavorativi": 1
-    },
-    {
-      "nome": "nuova_bozza",
-      "durata_min": 60,
-      "ambiente": "Casa",
-      "condizionale": true,
-      "attesa_giorni_lavorativi": 1
-    },
-    {
-      "nome": "preparazione_layout_stampa",
-      "durata_min": 90,
-      "ambiente": "Casa",
-      "attesa_giorni_lavorativi": 1
-    },
-    {
-      "nome": "invio_cliche",
-      "durata_min": 15,
-      "ambiente": "Casa",
-      "attesa_giorni_lavorativi": 0
-    },
-    {
-      "nome": "attesa_cliche",
-      "durata_min": 0,
-      "ambiente": "Casa",
-      "attesa_giorni_lavorativi": 3
-    },
-    {
-      "nome": "produzione_stampe",
-      "durata_min": 45,
-      "ambiente": "laboratorio",
-      "attesa_giorni_lavorativi": 0
-    },
-    {
-      "nome": "produzione_taglio",
-      "durata_min": 60,
-      "ambiente": "Laboratorio",
-      "attesa_giorni_lavorativi": 0
-    },
-    {
-      "nome": "stampa_indirizzi_buste",
-      "durata_min": 45,
-      "ambiente": "Laboratorio",
-      "attesa_giorni_lavorativi": 0
-    },
-    {
-      "nome": "stampa_con_cliche",
-      "durata_min": 60,
-      "ambiente": "Laboratorio",
-      "attesa_giorni_lavorativi": 0
-    },
-    {
-      "nome": "controllo_materiali",
-      "durata_min": 30,
-      "ambiente": "Laboratorio",
-      "attesa_giorni_lavorativi": 0
-    },
-    {
-      "nome": "integrazione_materiali",
-      "durata_min": 30,
-      "ambiente": "Laboratorio",
-      "condizionale": true,
-      "attesa_giorni_lavorativi": 0
-    },
-    {
-      "nome": "confezione",
-      "durata_min": 45,
-      "ambiente": "Laboratorio",
-      "attesa_giorni_lavorativi": 1
-    },
-    {
-      "nome": "spedizione_o_consegna",
-      "durata_min": 30,
-      "ambiente": "Laboratorio",
-      "attesa_giorni_lavorativi": 0
-    }
+    {"nome": "bozza_iniziale", "durata_min": 60, "ambiente": "Casa", "attesa_giorni_lavorativi": 0},
+    {"nome": "followup_bozza", "durata_min": 30, "ambiente": "Casa", "attesa_giorni_lavorativi": 1},
+    {"nome": "bozza_rifatta", "durata_min": 60, "ambiente": "Casa", "attesa_giorni_lavorativi": 1, "condizionale": true},
+    {"nome": "followup_e_conferma", "durata_min": 30, "ambiente": "Casa", "attesa_giorni_lavorativi": 1},
+    {"nome": "layout_stampa", "durata_min": 90, "ambiente": "Casa", "attesa_giorni_lavorativi": 0},
+    {"nome": "ordine_cliche", "durata_min": 15, "ambiente": "Casa", "attesa_giorni_lavorativi": 0, "condizionale": true, "attesa_arrivo_cliche": 3},
+    {"nome": "ordine_acquerello", "durata_min": 15, "ambiente": "Casa", "attesa_giorni_lavorativi": 0, "condizionale": true, "attesa_produzione_acquerello": 6},
+    {"nome": "stampa_digitale_e_taglio", "durata_min": 120, "ambiente": "Laboratorio", "attesa_giorni_lavorativi": 1, "include_buste_e_indirizzi": true},
+    {"nome": "stampa_nobilitazioni_cliche", "durata_min": 90, "ambiente": "Laboratorio", "attesa_giorni_lavorativi": 0, "condizionale": true, "richiede_arrivo_cliche": true},
+    {"nome": "controllo_finale_ed_eventuali_modifiche", "durata_min": 60, "ambiente": "Laboratorio", "attesa_giorni_lavorativi": 0},
+    {"nome": "impacchettamento", "durata_min": 60, "ambiente": "Laboratorio", "attesa_giorni_lavorativi": 1},
+    {"nome": "consegna", "durata_min": 30, "ambiente": "Laboratorio", "giorni_prima_evento": 2},
+
+    {"nome": "buffer_mentale", "durata_min": 15, "ambiente": "Casa", "condizionale": true, "trigger": "giornata_intensa"},
+    {"nome": "pausa_caffe", "durata_min": 10, "ambiente": "Casa o Laboratorio", "trigger": "dopo_180_min_continui_lavoro"},
+    {"nome": "revisione_settimanale", "durata_min": 20, "ambiente": "Casa", "giorno_fisso": "venerdì"},
+    {"nome": "followup_proattivo_cliente", "durata_min": 15, "ambiente": "Casa", "frequenza_settimanale": true, "condizionale": "dati_cliente_mancanti"},
+    {"nome": "giorno_amministrativo", "durata_min": 240, "ambiente": "Casa", "frequenza_mensile": true, "giorno_mese": 25},
+    {"nome": "ricarica_creativa", "durata_min": 60, "ambiente": "Casa", "frequenza_bisettimanale": true}
   ],
+
   "tempo_sicurezza_giorni": 2,
-  "pausa_pranzo": {
-    "inizio": "13:00",
-    "fine": "14:00"
-  },
+  "pausa_pranzo": {"inizio": "13:00", "fine": "14:00"},
+
   "preferenze_personali": {
     "giorni_bassa_energia": ["2025-04-04", "2025-04-10"],
     "ferie": ["2025-04-12", "2025-04-13"],
-    "no_task_intensi_durante_bassa_energia": true
+    "no_task_intensi_durante_bassa_energia": true,
+    "giorni_carico_ridotto": ["2025-04-04", "2025-04-10"],
+    "percentuale_massima_carico": 60,
+    "riduzione_carico_prefestivo_percentuale": 20
   },
-  "limiti_giornalieri": {
-    "massimo_minuti_lavoro_al_giorno": 400,
-    "usa_limite_task": false
-  },
+
+  "limiti_giornalieri": {"massimo_minuti_lavoro_al_giorno": 400, "usa_limite_task": false},
+
   "strategia_intelligente": {
     "accorpamento_stampe": true,
     "accorpamento_tagli": true,
     "evita_spostamenti_non_necessari": true,
     "prioritizza_task_da_casa_se_il_giorno_e_parziale": true,
-    "verifica_disponibilita_ambienti": true
+    "verifica_disponibilita_ambienti": true,
+    "buffer_spostamenti_minuti": 30
   },
+
   "disponibilita_settimanale": {
-    "2025-04-03": { "casa": ["14:00", "18:00"], "lab": [] },
-    "2025-04-04": { "casa": ["09:00", "12:30"], "lab": ["14:00", "17:30"] },
-    "2025-04-05": { "casa": [], "lab": [] }
+    "2025-04-03": {"casa": ["14:00", "18:00"], "laboratorio": []},
+    "2025-04-04": {"casa": ["09:00", "12:30"], "laboratorio": ["14:00", "17:30"]},
+    "2025-04-05": {"casa": [], "laboratorio": []}
   },
-  "committer": {
-    "name": "Nome Cognome",
-    "email": "nome@esempio.com"
-  }
+
+  "committer": {"name": "Nome Cognome", "email": "nome@esempio.com"}
 }
